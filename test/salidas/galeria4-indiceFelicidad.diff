@@ -1,0 +1,72 @@
+1,49c1,21
+< Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+< 1> Galeria creada con exito.
+< 2> Pieza creada en forma exitosa.
+< 3> La pieza fue agregada a la galeria con exito.
+< 4> Pieza creada en forma exitosa.
+< 5> La pieza fue agregada a la galeria con exito.
+< 6> Pieza creada en forma exitosa.
+< 7> La pieza fue agregada a la galeria con exito.
+< 8> Pieza creada en forma exitosa.
+< 9> La pieza fue agregada a la galeria con exito.
+< 10> Pieza creada en forma exitosa.
+< 11> La pieza fue agregada a la galeria con exito.
+< 12> Pieza creada en forma exitosa.
+< 13> La pieza fue agregada a la galeria con exito.
+< 14> Pieza creada en forma exitosa.
+< 15> La pieza fue agregada a la galeria con exito.
+< 16> Pieza creada en forma exitosa.
+< 17> La pieza fue agregada a la galeria con exito.
+< 18> Exposicion creada con exito.
+< 19> La exposicion fue agregada a la galeria con exito.
+< 20> Exposicion creada con exito.
+< 21> La exposicion fue agregada a la galeria con exito.
+< 22> La pieza de id 1 fue agregada a la exposicion de id 10.
+< 23> La pieza de id 2 fue agregada a la exposicion de id 10.
+< 24> La pieza de id 3 fue agregada a la exposicion de id 10.
+< 25> La pieza de id 4 fue agregada a la exposicion de id 10.
+< 26> La pieza de id 5 fue agregada a la exposicion de id 10.
+< 27> La pieza de id 6 fue agregada a la exposicion de id 11.
+< 28> La pieza de id 7 fue agregada a la exposicion de id 11.
+< 29> La pieza de id 8 fue agregada a la exposicion de id 11.
+< 30> Visitante creado de forma exitosa.
+< 31> El indice de felicidad del visitante es 1.00
+< 32> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+< 33> El indice de felicidad del visitante es 0.00
+< 34> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+< 35> El indice de felicidad del visitante es 0.25
+< 36> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+< 37> El indice de felicidad del visitante es 0.50
+< 38> Se avanzo la fecha de la galeria a 20/6/2024
+< 39> El indice de felicidad del visitante es 0.50
+< 40> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+< 41> El indice de felicidad del visitante es 0.30
+< 42> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+< 43> El indice de felicidad del visitante es 0.36
+< 44> Se avanzo la fecha de la galeria a 2/7/2024
+< 45> El indice de felicidad del visitante es 0.00
+< 46> Visitante liberado con exito.
+< 47> Galeria liberada con exito.
+< 48> Fin.
+---
+> principal: principal.cpp:1607: void main_indiceFelicidadVisitanteTGaleria(TGaleria, TVisitante): Assertion `galeria != NULL' failed.
+> ==7889== 12 bytes in 1 blocks are definitely lost in loss record 1 of 13
+> ==7889==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==7889==    by 0x1110E7: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
+> ==7889==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
+> ==7889==    by 0x10DCAA: main_crearGaleria(rep_galeria*&) (principal.cpp:1507)
+> ==7889==    by 0x10A722: main (principal.cpp:501)
+> ==7889== 
+> ==7889== 360 (64 direct, 296 indirect) bytes in 2 blocks are definitely lost in loss record 9 of 13
+> ==7889==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==7889==    by 0x10EEEC: crearTExposicion(int, rep_fecha*, rep_fecha*, int) (exposicion.cpp:11)
+> ==7889==    by 0x10D2A5: main_crearExposicion(rep_exposicion*&) (principal.cpp:1284)
+> ==7889==    by 0x10A33A: main (principal.cpp:451)
+> ==7889== 
+> ==7889== 2,496 bytes in 8 blocks are definitely lost in loss record 10 of 13
+> ==7889==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==7889==    by 0x11165D: crearTPieza(int, char const*, char const*, char const*, rep_fecha*) (pieza.cpp:14)
+> ==7889==    by 0x10B405: main_crearTPieza(rep_pieza*&, rep_fecha*&) (principal.cpp:705)
+> ==7889==    by 0x10972A: main (principal.cpp:299)
+> ==7889== 
+> Aborted

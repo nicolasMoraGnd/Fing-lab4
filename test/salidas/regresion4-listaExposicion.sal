@@ -1,0 +1,46 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Lista de exposiciones creada con exito.
+2> La lista de exposiciones es vacia..
+3> Exposicion creada con exito.
+4> Piezas agregadas a la exposicion de forma exitosa.
+5> Se ha agregado la exposicion a la lista de forma exitosa.
+6> Exposicion creada con exito.
+7> Piezas agregadas a la exposicion de forma exitosa.
+8> Se ha agregado la exposicion a la lista de forma exitosa.
+9> Exposicion creada con exito.
+10> Piezas agregadas a la exposicion de forma exitosa.
+11> Se ha agregado la exposicion a la lista de forma exitosa.
+12> Exposicion #1 del 1/1/2022 al 1/7/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+Exposicion #2 del 1/2/2022 al 1/6/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+Exposicion #3 del 2/3/2022 al 1/5/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+13> Exposicion creada con exito.
+14> Piezas agregadas a la exposicion de forma exitosa.
+15> La exposicion es compatible con el resto de las exposiciones de la lista.
+16> Exposicion liberada con exito.
+17> Exposicion #4 del 4/3/2002 al 1/7/2002
+Piezas: 2 3 
+Exposicion #5 del 5/3/2002 al 1/7/2002
+Piezas: 3 4 
+Exposicion #1 del 1/1/2022 al 1/7/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+Exposicion #2 del 1/2/2022 al 1/6/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+Exposicion #3 del 2/3/2022 al 1/5/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+18> La lista de exposiciones NO es vacia.
+19> La exposicion de id 2 pertenece a la lista de exposiciones.
+20> Exposicion #3 del 2/3/2022 al 1/5/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+21> Exposiciones finalizadas: 
+Exposicion #3 del 2/3/2022 al 1/5/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+22> Exposiciones activas: 
+Exposicion #1 del 1/1/2022 al 1/7/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+23> Exposicion #2 del 1/2/2022 al 1/6/2022
+Piezas: 0 1 2 3 4 5 6 7 8 
+24> Lista exposiciones liberada con exito.
+25> Fin.

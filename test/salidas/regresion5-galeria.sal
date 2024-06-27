@@ -1,0 +1,99 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Galeria creada con exito.
+2> Fecha creada en forma exitosa.
+3> Pieza creada en forma exitosa.
+4> La pieza fue agregada a la galeria con exito.
+5> Fecha creada en forma exitosa.
+6> Pieza creada en forma exitosa.
+7> La pieza fue agregada a la galeria con exito.
+8> Fecha creada en forma exitosa.
+9> Pieza creada en forma exitosa.
+10> La pieza fue agregada a la galeria con exito.
+11> Fecha creada en forma exitosa.
+12> Pieza creada en forma exitosa.
+13> La pieza fue agregada a la galeria con exito.
+14> Fecha creada en forma exitosa.
+15> Pieza creada en forma exitosa.
+16> La pieza fue agregada a la galeria con exito.
+17> Fecha creada en forma exitosa.
+18> Pieza creada en forma exitosa.
+19> La pieza fue agregada a la galeria con exito.
+20> Fecha creada en forma exitosa.
+21> Pieza creada en forma exitosa.
+22> La pieza fue agregada a la galeria con exito.
+23> Fecha creada en forma exitosa.
+24> Pieza creada en forma exitosa.
+25> La pieza fue agregada a la galeria con exito.
+26> Fecha creada en forma exitosa.
+27> Pieza creada en forma exitosa.
+28> La pieza fue agregada a la galeria con exito.
+29> Exposicion creada con exito.
+30> La exposicion fue agregada a la galeria con exito.
+31> Exposicion creada con exito.
+32> La exposicion fue agregada a la galeria con exito.
+33> Exposicion creada con exito.
+34> La exposicion fue agregada a la galeria con exito.
+35> Exposicion creada con exito.
+36> La exposicion fue agregada a la galeria con exito.
+37> Exposicion creada con exito.
+38> La exposicion fue agregada a la galeria con exito.
+39> La pieza de id 1 fue agregada a la exposicion de id 1.
+40> La pieza de id 2 fue agregada a la exposicion de id 1.
+41> La pieza de id 3 fue agregada a la exposicion de id 2.
+42> La pieza de id 4 fue agregada a la exposicion de id 2.
+43> La pieza de id 5 fue agregada a la exposicion de id 3.
+44> La pieza de id 6 fue agregada a la exposicion de id 4.
+45> La pieza de id 7 fue agregada a la exposicion de id 4.
+46> La pieza de id 8 fue agregada a la exposicion de id 5.
+47> La pieza de id 9 fue agregada a la exposicion de id 5.
+48> Exposiciones finalizadas:
+49> Exposiciones activas:
+50> Exposiciones futuras:
+51> Se avanzo la fecha de la galeria a 5/1/2024
+52> Exposiciones finalizadas:
+53> Exposiciones activas:
+54> Exposiciones futuras:
+55> Exposicion creada con exito.
+56> Piezas agregadas a la exposicion de forma exitosa.
+57> La exposicion NO es compatible con las demas exposiciones de la galeria.
+58> Exposicion liberada con exito.
+59> Exposicion creada con exito.
+60> Piezas agregadas a la exposicion de forma exitosa.
+61> La exposicion NO es compatible con las demas exposiciones de la galeria.
+62> Exposicion liberada con exito.
+63> Exposicion creada con exito.
+64> Piezas agregadas a la exposicion de forma exitosa.
+65> La exposicion NO es compatible con las demas exposiciones de la galeria.
+66> Exposicion liberada con exito.
+67> Exposicion creada con exito.
+68> Piezas agregadas a la exposicion de forma exitosa.
+69> La exposicion NO es compatible con las demas exposiciones de la galeria.
+70> Exposicion liberada con exito.
+71> Galeria liberada con exito.
+72> Fin.
+==7645== 12 bytes in 1 blocks are definitely lost in loss record 1 of 9
+==7645==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==7645==    by 0x1110E7: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
+==7645==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
+==7645==    by 0x10DCAA: main_crearGaleria(rep_galeria*&) (principal.cpp:1507)
+==7645==    by 0x10A722: main (principal.cpp:501)
+==7645== 
+==7645== 12 bytes in 1 blocks are definitely lost in loss record 2 of 9
+==7645==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==7645==    by 0x1110E7: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
+==7645==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
+==7645==    by 0x10DDEF: main_avanzarAFechaGaleria(rep_galeria*) (principal.cpp:1535)
+==7645==    by 0x10A7FA: main (principal.cpp:509)
+==7645== 
+==7645== 450 (160 direct, 290 indirect) bytes in 5 blocks are definitely lost in loss record 8 of 9
+==7645==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==7645==    by 0x10EEEC: crearTExposicion(int, rep_fecha*, rep_fecha*, int) (exposicion.cpp:11)
+==7645==    by 0x10D2A5: main_crearExposicion(rep_exposicion*&) (principal.cpp:1284)
+==7645==    by 0x10A33A: main (principal.cpp:451)
+==7645== 
+==7645== 2,916 (2,808 direct, 108 indirect) bytes in 9 blocks are definitely lost in loss record 9 of 9
+==7645==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==7645==    by 0x11165D: crearTPieza(int, char const*, char const*, char const*, rep_fecha*) (pieza.cpp:14)
+==7645==    by 0x10B405: main_crearTPieza(rep_pieza*&, rep_fecha*&) (principal.cpp:705)
+==7645==    by 0x10972A: main (principal.cpp:299)
+==7645== 

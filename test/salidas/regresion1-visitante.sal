@@ -1,0 +1,16 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Visitante creado de forma exitosa.
+2> Visitante Filemon Gonzalez
+Id: 31
+Edad: 29
+3> La edad del visitante es: 29
+4> La id del visitante es: 31
+5> Visitante copiado. Datos de la copia:
+Visitante Filemon Gonzalez
+Id: 31
+Edad: 29
+6> Visitante Filemon Gonzalez
+Id: 31
+Edad: 29
+7> Visitante liberado con exito.
+8> Fin.

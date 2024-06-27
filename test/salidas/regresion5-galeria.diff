@@ -1,0 +1,64 @@
+51,54d50
+< Exposicion #4 del 10/1/2023 al 15/6/2024
+< Piezas: 6 7 
+< Exposicion #1 del 1/12/2023 al 1/1/2024
+< Piezas: 1 2 
+56,61d51
+< Exposicion #2 del 2/1/2024 al 15/2/2024
+< Piezas: 3 4 
+< Exposicion #3 del 3/1/2024 al 15/2/2024
+< Piezas: 5 
+< Exposicion #5 del 10/4/2024 al 15/6/2024
+< Piezas: 8 9 
+64,65d53
+< Exposicion #1 del 1/12/2023 al 1/1/2024
+< Piezas: 1 2 
+67,72d54
+< Exposicion #4 del 10/1/2023 al 15/6/2024
+< Piezas: 6 7 
+< Exposicion #2 del 2/1/2024 al 15/2/2024
+< Piezas: 3 4 
+< Exposicion #3 del 3/1/2024 al 15/2/2024
+< Piezas: 5 
+74,75d55
+< Exposicion #5 del 10/4/2024 al 15/6/2024
+< Piezas: 8 9 
+78c58
+< 57> La exposicion es compatible con las demas exposiciones de la galeria.
+---
+> 57> La exposicion NO es compatible con las demas exposiciones de la galeria.
+82c62
+< 61> La exposicion es compatible con las demas exposiciones de la galeria.
+---
+> 61> La exposicion NO es compatible con las demas exposiciones de la galeria.
+86c66
+< 65> La exposicion es compatible con las demas exposiciones de la galeria.
+---
+> 65> La exposicion NO es compatible con las demas exposiciones de la galeria.
+93a74,99
+> ==7645== 12 bytes in 1 blocks are definitely lost in loss record 1 of 9
+> ==7645==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==7645==    by 0x1110E7: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
+> ==7645==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
+> ==7645==    by 0x10DCAA: main_crearGaleria(rep_galeria*&) (principal.cpp:1507)
+> ==7645==    by 0x10A722: main (principal.cpp:501)
+> ==7645== 
+> ==7645== 12 bytes in 1 blocks are definitely lost in loss record 2 of 9
+> ==7645==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==7645==    by 0x1110E7: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
+> ==7645==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
+> ==7645==    by 0x10DDEF: main_avanzarAFechaGaleria(rep_galeria*) (principal.cpp:1535)
+> ==7645==    by 0x10A7FA: main (principal.cpp:509)
+> ==7645== 
+> ==7645== 450 (160 direct, 290 indirect) bytes in 5 blocks are definitely lost in loss record 8 of 9
+> ==7645==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==7645==    by 0x10EEEC: crearTExposicion(int, rep_fecha*, rep_fecha*, int) (exposicion.cpp:11)
+> ==7645==    by 0x10D2A5: main_crearExposicion(rep_exposicion*&) (principal.cpp:1284)
+> ==7645==    by 0x10A33A: main (principal.cpp:451)
+> ==7645== 
+> ==7645== 2,916 (2,808 direct, 108 indirect) bytes in 9 blocks are definitely lost in loss record 9 of 9
+> ==7645==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==7645==    by 0x11165D: crearTPieza(int, char const*, char const*, char const*, rep_fecha*) (pieza.cpp:14)
+> ==7645==    by 0x10B405: main_crearTPieza(rep_pieza*&, rep_fecha*&) (principal.cpp:705)
+> ==7645==    by 0x10972A: main (principal.cpp:299)
+> ==7645== 

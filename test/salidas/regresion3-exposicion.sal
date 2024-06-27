@@ -1,0 +1,28 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Exposicion creada con exito.
+2> Piezas agregadas a la exposicion de forma exitosa.
+3> Exposicion #1 del 1/1/2002 al 1/6/2002
+Piezas: 0 1 2 3 4 10 43 49 
+4> Piezas agregadas a la exposicion de forma exitosa.
+5> Exposicion #1 del 1/1/2002 al 1/6/2002
+Piezas: 0 1 2 3 4 5 6 7 8 9 10 17 24 43 49 
+6> La pieza de id 0 pertenece a la exposicion.
+7> La pieza de id 1 pertenece a la exposicion.
+8> La pieza de id 6 pertenece a la exposicion.
+9> La pieza de id 9 pertenece a la exposicion.
+10> La pieza de id 10 pertenece a la exposicion.
+11> La pieza de id 100 NO pertenece a la exposicion.
+12> El id de la exposicion es: 1.
+13> La fecha inicio de la exposicion es: 1/1/2002
+14> La fecha fin de la exposicion es: 1/6/2002
+15> Las exposiciones NO son compatibles.
+16> Las exposiciones NO son compatibles.
+17> Las exposiciones NO son compatibles.
+18> Las exposiciones NO son compatibles.
+19> Las exposiciones NO son compatibles.
+20> Las exposiciones NO son compatibles.
+21> Las exposiciones son compatibles.
+22> Las exposiciones son compatibles.
+23> Las exposiciones son compatibles.
+24> Exposicion liberada con exito.
+25> Fin.

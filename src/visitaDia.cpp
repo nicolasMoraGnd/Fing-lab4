@@ -15,7 +15,7 @@ struct rep_visitadia{
   int cota;
   TFecha fecha;
   nodo* grupos;
-  //conjunto que relaciona id%10000 con su ubicacion dentro del heap, conjunto
+  //conjunto que relaciona id con su ubicacion dentro del heap, conjunto
   int* ubicacionGrupo;
   bool invertido;
 };
@@ -26,14 +26,14 @@ TVisitaDia crearTVisitaDia(TFecha fecha, int N){
   nuevaVisitaDia->cota = N;
   nuevaVisitaDia->fecha = fecha;
   nuevaVisitaDia->grupos = new nodo[N+1];
-  nuevaVisitaDia->ubicacionGrupo = new int[1000000];
+  nuevaVisitaDia->ubicacionGrupo = new int[N+1];
   nuevaVisitaDia->invertido = false;
   
   for (int i = 0; i < N; i++)
   {
     nuevaVisitaDia->grupos[i] = NULL;
   }
-  for(int i = 0; i < 10000; i++ ){
+  for(int i = 0; i < N+1; i++ ){
     nuevaVisitaDia->ubicacionGrupo[i] = 0;
   }
   
@@ -50,8 +50,8 @@ void filtradoAscendente(TVisitaDia &visita, int i){
     nodo nodoAux = visita->grupos[i/2];
     visita->grupos[i/2] = visita->grupos[i];
     visita->grupos[i] = nodoAux;
-    visita->ubicacionGrupo[i%10000] = i/2;
-    visita->ubicacionGrupo[(i/2)%10000] = i;
+    visita->ubicacionGrupo[i] = i/2;
+    visita->ubicacionGrupo[(i/2)] = i;
     i = i/2;
   }
 }
@@ -62,8 +62,8 @@ void filtradoAscendenteInverso(TVisitaDia visita, int i){
     nodo nodoAux = visita->grupos[i/2];
     visita->grupos[i/2] = visita->grupos[i];
     visita->grupos[i] = nodoAux;
-    visita->ubicacionGrupo[i%10000] = i/2;
-    visita->ubicacionGrupo[(i/2)%10000] = i;
+    visita->ubicacionGrupo[i] = i/2;
+    visita->ubicacionGrupo[(i/2)] = i;
     i = i/2;
   }
 }
@@ -82,18 +82,18 @@ void filtradoDescendente(TVisitaDia &visita, int i, bool insertar){
     }
     
     visita->grupos[i] = visita->grupos[hijo];
-    visita->ubicacionGrupo[idGrupo(visita->grupos[i]->grupo)%10000] = i;
+    visita->ubicacionGrupo[idGrupo(visita->grupos[i]->grupo)] = i;
     //si no se esta insertando necesitamdo que sea un swap
     if(!insertar){
       visita->grupos[hijo] = aux;
-      visita->ubicacionGrupo[idGrupo(visita->grupos[hijo]->grupo)%10000] = hijo;
+      visita->ubicacionGrupo[idGrupo(visita->grupos[hijo]->grupo)] = hijo;
     }
     filtradoDescendente(visita, hijo, insertar);
   }else{
     //si se esta insertando necesitamos corregir el hueco que queda en la ultima de las hojas
     if(insertar){
       visita->grupos[i] = visita->grupos[visita->cantidad];
-      visita->ubicacionGrupo[idGrupo(visita->grupos[i]->grupo)%10000] = i;
+      visita->ubicacionGrupo[idGrupo(visita->grupos[i]->grupo)] = i;
 
       visita->grupos[visita->cantidad] = NULL; 
     }
@@ -114,18 +114,18 @@ void filtradoDescendenteInverso(TVisitaDia &visita, int i, bool insertar){
       hijo = hijo + 1;
     }
     visita->grupos[i] = visita->grupos[hijo];
-    visita->ubicacionGrupo[idGrupo(visita->grupos[i]->grupo)%10000] = i;
+    visita->ubicacionGrupo[idGrupo(visita->grupos[i]->grupo)] = i;
 
     if(!insertar){
       visita->grupos[hijo] = aux;
-      visita->ubicacionGrupo[idGrupo(visita->grupos[hijo]->grupo)%10000] = hijo;
+      visita->ubicacionGrupo[idGrupo(visita->grupos[hijo]->grupo)] = hijo;
     }
     filtradoDescendenteInverso(visita, hijo, insertar);
   }else{
     //si se esta insertando necesitamos corregir el hueco que queda en la ultima de las hojas
     if(insertar){
       visita->grupos[i] = visita->grupos[visita->cantidad];
-      visita->ubicacionGrupo[idGrupo(visita->grupos[i]->grupo)%10000] = i;
+      visita->ubicacionGrupo[idGrupo(visita->grupos[i]->grupo)] = i;
 
       visita->grupos[visita->cantidad] = NULL; 
     }
@@ -145,7 +145,7 @@ void encolarGrupoTVisitaDia(TVisitaDia &visita, TGrupoABB grupo){
     aux->grupo = grupo;
     aux->edadPromedio = edadPromedioTGrupoABB(grupo);
     visita->cantidad++;
-    visita->ubicacionGrupo[idGrupo(grupo)%10000] = visita->cantidad;
+    visita->ubicacionGrupo[idGrupo(grupo)] = visita->cantidad;
 
     visita->grupos[visita->cantidad] = aux;
     
@@ -294,7 +294,7 @@ void invertirPrioridadTVisitaDia(TVisitaDia &visita) {
 }
 
 bool estaEnTVisitaDia(TVisitaDia visita, int id) {
-  return visita->ubicacionGrupo[id%10000] != 0;
+  return visita->ubicacionGrupo[id] != 0;
 } 
 
 float prioridadTVisitaDia(TVisitaDia visita, int id){
