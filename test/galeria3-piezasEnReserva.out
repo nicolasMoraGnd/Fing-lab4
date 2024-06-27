@@ -1,0 +1,35 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Galeria creada con exito.
+2> Pieza creada en forma exitosa.
+3> La pieza fue agregada a la galeria con exito.
+4> Pieza creada en forma exitosa.
+5> La pieza fue agregada a la galeria con exito.
+6> Pieza creada en forma exitosa.
+7> La pieza fue agregada a la galeria con exito.
+8> Pieza creada en forma exitosa.
+9> La pieza fue agregada a la galeria con exito.
+10> Exposicion creada con exito.
+11> La exposicion fue agregada a la galeria con exito.
+12> Exposicion creada con exito.
+13> La exposicion fue agregada a la galeria con exito.
+14> La pieza de id 1 fue agregada a la exposicion de id 10.
+15> Las piezas en reserva en la galeria son:
+2 3 4 
+16> La pieza de id 2 fue agregada a la exposicion de id 10.
+17> Las piezas en reserva en la galeria son:
+3 4 
+18> La pieza de id 3 fue agregada a la exposicion de id 11.
+19> La pieza de id 4 fue agregada a la exposicion de id 11.
+20> Las piezas en reserva en la galeria son:
+3 4 
+21> Se avanzo la fecha de la galeria a 10/5/2024
+22> Las piezas en reserva en la galeria son:
+
+23> Se avanzo la fecha de la galeria a 27/5/2024
+24> Las piezas en reserva en la galeria son:
+1 2 
+25> La pieza de id 1 fue agregada a la exposicion de id 11.
+26> Las piezas en reserva en la galeria son:
+2 
+27> Galeria liberada con exito.
+28> Fin.

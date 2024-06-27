@@ -1,0 +1,72 @@
+crearGaleria 01/01/2024
+crearFecha 01/01/2020 
+crearPieza 1 Pieza1 Autor1 Apellido1
+agregarPiezaGaleria
+crearFecha 02/02/2020 
+crearPieza 2 Pieza2 Autor2 Apellido2
+agregarPiezaGaleria
+crearFecha 03/03/2020 
+crearPieza 3 Pieza3 Autor3 Apellido3
+agregarPiezaGaleria
+crearFecha 04/04/2020 
+crearPieza 4 Pieza4 Autor4 Apellido4
+agregarPiezaGaleria
+crearFecha 05/05/2020 
+crearPieza 5 Pieza5 Autor5 Apellido5
+agregarPiezaGaleria
+crearFecha 06/06/2020 
+crearPieza 6 Pieza6 Autor6 Apellido6
+agregarPiezaGaleria
+crearFecha 07/07/2020 
+crearPieza 7 Pieza7 Autor7 Apellido7
+agregarPiezaGaleria
+crearFecha 08/08/2020 
+crearPieza 8 Pieza8 Autor8 Apellido8
+agregarPiezaGaleria
+crearFecha 09/09/2020 
+crearPieza 9 Pieza9 Autor9 Apellido9
+agregarPiezaGaleria
+crearExposicion 01/12/2023 01/01/2024 10 1
+agregarExposicionGaleria
+crearExposicion 02/01/2024 15/02/2024 10 2
+agregarExposicionGaleria
+crearExposicion 03/01/2024 15/02/2024 10 3
+agregarExposicionGaleria
+crearExposicion 10/01/2023 15/06/2024 10 4
+agregarExposicionGaleria
+crearExposicion 10/04/2024 15/06/2024 10 5
+agregarExposicionGaleria
+agregarPiezaAExposicionGaleria 1 1
+agregarPiezaAExposicionGaleria 2 1
+agregarPiezaAExposicionGaleria 3 2
+agregarPiezaAExposicionGaleria 4 2
+agregarPiezaAExposicionGaleria 5 3
+agregarPiezaAExposicionGaleria 6 4
+agregarPiezaAExposicionGaleria 7 4
+agregarPiezaAExposicionGaleria 8 5
+agregarPiezaAExposicionGaleria 9 5
+imprimirExposicionesFinalizadasGaleria
+imprimirExposicionesActivasGaleria
+imprimirExposicionesFuturasGaleria
+avanzarAFechaGaleria 05/01/2024
+imprimirExposicionesFinalizadasGaleria
+imprimirExposicionesActivasGaleria
+imprimirExposicionesFuturasGaleria
+crearExposicion 01/12/2023 15/12/2023 10 1
+agregarAExposicion 1 5
+esCompatibleExposicionGaleria 
+liberarExposicion
+crearExposicion 01/12/2023 15/12/2024 10 1
+agregarAExposicion 1 0
+esCompatibleExposicionGaleria 
+liberarExposicion
+crearExposicion 02/01/2024 15/02/2024 10 1
+agregarAExposicion 4 1 2 8 9
+esCompatibleExposicionGaleria 
+liberarExposicion
+crearExposicion 02/01/2024 15/02/2024 10 1
+agregarAExposicion 4 1 2 3 8 9
+esCompatibleExposicionGaleria 
+liberarExposicion
+liberarGaleria
+Fin

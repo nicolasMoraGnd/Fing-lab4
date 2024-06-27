@@ -1,0 +1,28 @@
+crearGaleria 02/05/2024
+obtenerVisitaDiaGaleria 01/05/2024
+crearGrupoABB
+crearVisitante 4 Azalea Blanco 25
+agregarAGrupoABB
+crearVisitante 10 Gardenia Perez 20
+agregarAGrupoABB
+llegaGrupoGaleria 
+crearGrupoABB
+crearVisitante 3 Lilia Lopez 51
+agregarAGrupoABB
+llegaGrupoGaleria
+obtenerVisitaDiaGaleria 02/05/2024
+avanzarAFechaGaleria 04/05/2024
+obtenerVisitaDiaGaleria 01/05/2024
+obtenerVisitaDiaGaleria 02/05/2024
+obtenerVisitaDiaGaleria 04/05/2024
+crearGrupoABB
+crearVisitante 6 Irisia Dominguez 40
+agregarAGrupoABB
+llegaGrupoGaleria
+avanzarAFechaGaleria 06/05/2024
+obtenerVisitaDiaGaleria 06/05/2024
+obtenerVisitaDiaGaleria 04/05/2024
+obtenerVisitaDiaGaleria 02/05/2024
+obtenerVisitaDiaGaleria 01/05/2024
+liberarGaleria
+Fin

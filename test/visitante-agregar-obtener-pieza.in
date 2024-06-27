@@ -1,0 +1,20 @@
+
+crearVisitante 1 Margarita Mendez 31
+obtenerPiezasFavoritasVisitante
+agregarPiezasFavoritasVisitante 2 1 2
+obtenerPiezasFavoritasVisitante
+agregarPiezasFavoritasVisitante 2 1 2
+obtenerPiezasFavoritasVisitante
+agregarPiezasFavoritasVisitante 5 6 2 1 5 4
+obtenerPiezasFavoritasVisitante
+liberarVisitante
+crearVisitante 2 Violeta Alvarez 54
+obtenerPiezasFavoritasVisitante
+agregarPiezasFavoritasVisitante 5 10 20 30 40 50
+obtenerPiezasFavoritasVisitante
+agregarPiezasFavoritasVisitante 5 12 22 32 42 52
+obtenerPiezasFavoritasVisitante
+agregarPiezasFavoritasVisitante 5 1 2 3 4 5
+obtenerPiezasFavoritasVisitante
+liberarVisitante
+Fin

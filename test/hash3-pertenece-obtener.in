@@ -1,0 +1,43 @@
+crearHashVisitaDia 30
+perteneceVisitaDiaHashVisitaDia 03/04/2024
+obtenerVisitaDiaHashVisitaDia 03/04/2024
+crearVisitaDia 03/04/2024
+crearGrupoABB 
+crearVisitante 1 Rosa Perez 50
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+perteneceVisitaDiaHashVisitaDia 03/04/2024
+obtenerVisitaDiaHashVisitaDia 03/04/2024
+crearVisitaDia 30/10/2023
+crearGrupoABB 
+crearVisitante 2 Camilia Soto 32
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 28/02/2024
+crearGrupoABB 
+crearVisitante 3 Margarita Blanco 19
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 10/09/2023
+crearGrupoABB 
+crearVisitante 4 Jasmina Vidal 31
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 12/12/2023
+crearGrupoABB 
+crearVisitante 5 Violeta Iglesias 73
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+perteneceVisitaDiaHashVisitaDia 03/04/2024
+obtenerVisitaDiaHashVisitaDia 03/04/2024
+perteneceVisitaDiaHashVisitaDia 06/06/2025
+obtenerVisitaDiaHashVisitaDia 06/06/2025
+perteneceVisitaDiaHashVisitaDia 10/09/2000
+obtenerVisitaDiaHashVisitaDia 28/02/2000
+liberarHashVisitaDia
+Fin

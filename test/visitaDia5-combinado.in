@@ -1,0 +1,77 @@
+crearVisitaDia 02/07/1998
+fechaVisitaDia
+maxGruposVisitaDia
+cantidadGruposVisitaDia
+crearGrupoABB 
+crearVisitante 1 Fernando Perez 27
+agregarAGrupoABB
+crearVisitante 2 Brahim Moumen 21
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+cantidadGruposVisitaDia
+imprimirVisitaDia
+masPrioritarioVisitaDia 
+estaEnVisitaDia 1
+estaEnVisitaDia 2
+prioridadVisitaDia 1
+crearGrupoABB 
+crearVisitante 3 Peter Andersen 21
+agregarAGrupoABB
+crearVisitante 4 Everton Lopes 28
+agregarAGrupoABB
+encolarGrupoVisitaDia
+estaEnVisitaDia 1
+estaEnVisitaDia 2
+cantidadGruposVisitaDia
+prioridadVisitaDia 1
+prioridadVisitaDia 2
+imprimirVisitaDia
+masPrioritarioVisitaDia 
+invertirPrioridadVisitaDia
+masPrioritarioVisitaDia 
+crearGrupoABB 
+crearVisitante 5 Felix Godswill 17
+agregarAGrupoABB
+crearVisitante 6 Hugo Moron 20
+agregarAGrupoABB
+crearVisitante 7 Pablo Tapia 23
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+estaEnVisitaDia 1
+estaEnVisitaDia 2
+estaEnVisitaDia 3
+estaEnVisitaDia 4
+imprimirVisitaDia
+masPrioritarioVisitaDia 
+invertirPrioridadVisitaDia
+masPrioritarioVisitaDia 
+crearGrupoABB 
+crearVisitante 8 Alexandros Syrokakis 28
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+imprimirVisitaDia
+invertirPrioridadVisitaDia
+imprimirVisitaDia
+masPrioritarioVisitaDia 
+desencolarGrupoVisitaDia
+masPrioritarioVisitaDia
+desencolarGrupoVisitaDia
+invertirPrioridadVisitaDia
+imprimirVisitaDia
+desencolarGrupoVisitaDia
+masPrioritarioVisitaDia 
+estaEnVisitaDia 1
+estaEnVisitaDia 2
+estaEnVisitaDia 3
+estaEnVisitaDia 4
+crearGrupoABB 
+crearVisitante 9 John Beesley 33
+agregarAGrupoABB
+crearVisitante 10 Jorge Sosa 34
+agregarAGrupoABB
+encolarGrupoVisitaDia
+masPrioritarioVisitaDia 
+invertirPrioridadVisitaDia
+masPrioritarioVisitaDia 
+liberarVisitaDia
+Fin

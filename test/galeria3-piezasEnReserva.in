@@ -1,0 +1,28 @@
+crearGaleria 04/05/2024
+crearPieza 1 VistaDeToledo Pumino Matison
+agregarPiezaGaleria
+crearPieza 2 SaturnoDevorando Toron Michelangio
+agregarPiezaGaleria
+crearPieza 3 LaPersistencia Osito Warhill
+agregarPiezaGaleria
+crearPieza 4 ElJardinFeliz Zorrito Dalin
+agregarPiezaGaleria
+crearExposicion 01/05/2024 20/05/2024 100 10
+agregarExposicionGaleria
+crearExposicion 08/05/2024 30/05/2024 100 11
+agregarExposicionGaleria
+agregarPiezaAExposicionGaleria 1 10
+piezasEnReservaGaleria
+agregarPiezaAExposicionGaleria 2 10
+piezasEnReservaGaleria
+agregarPiezaAExposicionGaleria 3 11
+agregarPiezaAExposicionGaleria 4 11
+piezasEnReservaGaleria
+avanzarAFechaGaleria 10/05/2024
+piezasEnReservaGaleria
+avanzarAFechaGaleria 27/05/2024
+piezasEnReservaGaleria
+agregarPiezaAExposicionGaleria 1 11
+piezasEnReservaGaleria
+liberarGaleria
+Fin

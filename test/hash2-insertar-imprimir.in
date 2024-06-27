@@ -1,0 +1,37 @@
+crearHashVisitaDia 10
+imprimirHashVisitaDia
+crearVisitaDia 03/04/2024
+crearGrupoABB 
+crearVisitante 1 Irisia Perez 20
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+imprimirHashVisitaDia
+crearVisitaDia 30/10/2023
+crearGrupoABB 
+crearVisitante 2 Violeta Lopez 40
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+imprimirHashVisitaDia
+crearVisitaDia 28/02/2024
+crearGrupoABB 
+crearVisitante 3 Azalea Iglesias 29
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 10/09/2023
+crearGrupoABB 
+crearVisitante 4 Lilia Dominguez 33
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 12/12/2023
+crearGrupoABB 
+crearVisitante 5 Camilia Castro 45
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+imprimirHashVisitaDia
+liberarHashVisitaDia
+Fin

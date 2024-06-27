@@ -1,0 +1,21 @@
+crearVisitaDia 01/01/2001
+imprimirVisitaDia
+liberarVisitaDia
+crearVisitaDia 02/02/2002
+crearGrupoABB 
+crearVisitante 1 Nombre1 Apellido1 20
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+imprimirVisitaDia
+crearGrupoABB 
+crearVisitante 2 Nombre2 Apellido2 21
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+imprimirVisitaDia
+cantidadGruposVisitaDia
+desencolarGrupoVisitaDia
+imprimirVisitaDia
+desencolarGrupoVisitaDia
+imprimirVisitaDia
+liberarVisitaDia
+Fin

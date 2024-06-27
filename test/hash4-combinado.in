@@ -1,0 +1,84 @@
+crearHashVisitaDia 1
+imprimirHashVisitaDia
+crearVisitaDia 03/04/2024
+crearGrupoABB 
+crearVisitante 1 Violeta Castro 20
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 30/01/2023
+crearGrupoABB 
+crearVisitante 2 Irisia Blanco 40
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 12/02/2024
+crearGrupoABB 
+crearVisitante 3 Dalia Vidal 29
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 15/09/2023
+crearGrupoABB 
+crearVisitante 4 Rosa Iglesias 33
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 21/12/2023
+crearGrupoABB 
+crearVisitante 5 Camilia Castro 45
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 05/05/2023
+crearGrupoABB 
+crearVisitante 6 Jasmina Lopez 41
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+perteneceVisitaDiaHashVisitaDia 06/06/2025
+obtenerVisitaDiaHashVisitaDia 06/06/2025
+perteneceVisitaDiaHashVisitaDia 10/09/2000
+obtenerVisitaDiaHashVisitaDia 28/02/2000
+imprimirHashVisitaDia
+liberarHashVisitaDia
+crearHashVisitaDia 100
+imprimirHashVisitaDia
+crearVisitaDia 01/01/2024
+crearGrupoABB 
+crearVisitante 7 Violeta Blanco 22
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+imprimirHashVisitaDia
+perteneceVisitaDiaHashVisitaDia 01/01/2024
+obtenerVisitaDiaHashVisitaDia 01/01/200
+liberarHashVisitaDia
+crearHashVisitaDia 30
+crearVisitaDia 01/01/2024
+crearGrupoABB 
+crearVisitante 8 Azalea Castro 35
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 31/01/2024
+crearGrupoABB 
+crearVisitante 9 Rosa Dominguez 34
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 29/03/2024
+crearGrupoABB 
+crearVisitante 10 Dalia Mendez 35
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+crearVisitaDia 28/04/2024
+crearGrupoABB 
+crearVisitante 5 Gardenia Dominguez 22
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+agregarVisitaDiaHashVisitaDia
+imprimirHashVisitaDia
+liberarHashVisitaDia
+Fin

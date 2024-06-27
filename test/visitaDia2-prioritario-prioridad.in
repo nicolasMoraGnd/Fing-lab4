@@ -1,0 +1,35 @@
+crearVisitaDia 02/02/2002
+crearGrupoABB 
+crearVisitante 1 Nombre1 Apellido1 20
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+imprimirVisitaDia
+masPrioritarioVisitaDia 
+masPrioritarioVisitaDia 
+prioridadVisitaDia 1
+crearGrupoABB 
+crearVisitante 2 Nombre2 Apellido2 25
+agregarAGrupoABB
+encolarGrupoVisitaDia
+prioridadVisitaDia 1
+prioridadVisitaDia 2
+masPrioritarioVisitaDia  
+imprimirVisitaDia
+crearGrupoABB 
+crearVisitante 3 Nombre3 Apellido3 19
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+imprimirVisitaDia
+masPrioritarioVisitaDia 
+crearGrupoABB 
+crearVisitante 4 Nombre4 Apellido4 20
+agregarAGrupoABB
+crearVisitante 5 Nombre5 Apellido5 19
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+prioridadVisitaDia 4
+prioridadVisitaDia 3
+imprimirVisitaDia
+masPrioritarioVisitaDia 
+liberarVisitaDia
+Fin

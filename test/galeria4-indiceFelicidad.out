@@ -1,0 +1,49 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Galeria creada con exito.
+2> Pieza creada en forma exitosa.
+3> La pieza fue agregada a la galeria con exito.
+4> Pieza creada en forma exitosa.
+5> La pieza fue agregada a la galeria con exito.
+6> Pieza creada en forma exitosa.
+7> La pieza fue agregada a la galeria con exito.
+8> Pieza creada en forma exitosa.
+9> La pieza fue agregada a la galeria con exito.
+10> Pieza creada en forma exitosa.
+11> La pieza fue agregada a la galeria con exito.
+12> Pieza creada en forma exitosa.
+13> La pieza fue agregada a la galeria con exito.
+14> Pieza creada en forma exitosa.
+15> La pieza fue agregada a la galeria con exito.
+16> Pieza creada en forma exitosa.
+17> La pieza fue agregada a la galeria con exito.
+18> Exposicion creada con exito.
+19> La exposicion fue agregada a la galeria con exito.
+20> Exposicion creada con exito.
+21> La exposicion fue agregada a la galeria con exito.
+22> La pieza de id 1 fue agregada a la exposicion de id 10.
+23> La pieza de id 2 fue agregada a la exposicion de id 10.
+24> La pieza de id 3 fue agregada a la exposicion de id 10.
+25> La pieza de id 4 fue agregada a la exposicion de id 10.
+26> La pieza de id 5 fue agregada a la exposicion de id 10.
+27> La pieza de id 6 fue agregada a la exposicion de id 11.
+28> La pieza de id 7 fue agregada a la exposicion de id 11.
+29> La pieza de id 8 fue agregada a la exposicion de id 11.
+30> Visitante creado de forma exitosa.
+31> El indice de felicidad del visitante es 1.00
+32> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+33> El indice de felicidad del visitante es 0.00
+34> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+35> El indice de felicidad del visitante es 0.25
+36> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+37> El indice de felicidad del visitante es 0.50
+38> Se avanzo la fecha de la galeria a 20/6/2024
+39> El indice de felicidad del visitante es 0.50
+40> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+41> El indice de felicidad del visitante es 0.30
+42> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+43> El indice de felicidad del visitante es 0.36
+44> Se avanzo la fecha de la galeria a 2/7/2024
+45> El indice de felicidad del visitante es 0.00
+46> Visitante liberado con exito.
+47> Galeria liberada con exito.
+48> Fin.

@@ -1,0 +1,48 @@
+crearGaleria 10/06/2024
+crearPieza 1 LaSagradaCena Palomo Rembrant
+agregarPiezaGaleria
+crearPieza 2 ElHombreCiego Marisola Warhill
+agregarPiezaGaleria
+crearPieza 3 ElPerroTriste Lobon Monay
+agregarPiezaGaleria
+crearPieza 4 LosBorrachines Zorrito DaVinsi
+agregarPiezaGaleria
+crearPieza 5 LaLechera Osito Matison
+agregarPiezaGaleria
+crearPieza 6 ElEntierro Zorrito VanGohn
+agregarPiezaGaleria
+crearPieza 7 RetratoIgnoto Marisola Pitazzo
+agregarPiezaGaleria
+crearPieza 8 LasCostureras Gaton Kahlu
+agregarPiezaGaleria
+crearExposicion 01/06/2024 20/06/2024 100 10
+agregarExposicionGaleria
+crearExposicion 17/06/2024 30/06/2024 100 11
+agregarExposicionGaleria
+agregarPiezaAExposicionGaleria 1 10
+agregarPiezaAExposicionGaleria 2 10
+agregarPiezaAExposicionGaleria 3 10
+agregarPiezaAExposicionGaleria 4 10
+agregarPiezaAExposicionGaleria 5 10
+agregarPiezaAExposicionGaleria 6 11
+agregarPiezaAExposicionGaleria 7 11
+agregarPiezaAExposicionGaleria 8 11
+crearVisitante 1 Gardenia Alvarez 22
+indiceFelicidadVisitanteGaleria
+agregarPiezasFavoritasVisitante 3 18 19 20
+indiceFelicidadVisitanteGaleria
+agregarPiezasFavoritasVisitante 1 1
+indiceFelicidadVisitanteGaleria
+agregarPiezasFavoritasVisitante 2 2 3
+indiceFelicidadVisitanteGaleria
+avanzarAFechaGaleria 20/06/2024
+indiceFelicidadVisitanteGaleria
+agregarPiezasFavoritasVisitante 4 21 22 23 24
+indiceFelicidadVisitanteGaleria
+agregarPiezasFavoritasVisitante 1 8
+indiceFelicidadVisitanteGaleria
+avanzarAFechaGaleria 02/07/2024
+indiceFelicidadVisitanteGaleria
+liberarVisitante
+liberarGaleria
+Fin
