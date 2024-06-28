@@ -1,0 +1,28 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Visitante creado de forma exitosa.
+2> Piezas favoritas del visitante:
+
+3> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+4> Piezas favoritas del visitante:
+1 2 
+5> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+6> Piezas favoritas del visitante:
+1 2 
+7> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+8> Piezas favoritas del visitante:
+1 2 4 5 6 
+9> Visitante liberado con exito.
+10> Visitante creado de forma exitosa.
+11> Piezas favoritas del visitante:
+
+12> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+13> Piezas favoritas del visitante:
+10 20 30 40 50 
+14> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+15> Piezas favoritas del visitante:
+10 12 20 22 30 32 40 42 50 52 
+16> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+17> Piezas favoritas del visitante:
+1 2 3 4 5 10 12 20 22 30 32 40 42 50 52 
+18> Visitante liberado con exito.
+19> Fin.

@@ -1,0 +1,50 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> La visita dia se ha creado de forma exitosa.
+2> Visita para dia: 1/1/2001
+3> La visita dia se ha liberado exitosamente.
+4> La visita dia se ha creado de forma exitosa.
+5> El grupoABB ha sido creado de forma exitosa.
+6> Visitante creado de forma exitosa.
+7> Se ha agregado el visitante al grupo de forma exitosa.
+8> Se ha agregado el grupo a la visita dia de forma exitosa.
+9> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+10> El grupoABB ha sido creado de forma exitosa.
+11> Visitante creado de forma exitosa.
+12> Se ha agregado el visitante al grupo de forma exitosa.
+13> Se ha agregado el grupo a la visita dia de forma exitosa.
+14> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+
+Nivel 2
+2) Grupo 2 con edad promedio 21.00
+Visitante Nombre2 Apellido2
+Id: 2
+Edad: 21
+15> La cantidad de grupos en la visita dia es 2
+16> Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+17> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 2 con edad promedio 21.00
+Visitante Nombre2 Apellido2
+Id: 2
+Edad: 21
+18> Visitante Nombre2 Apellido2
+Id: 2
+Edad: 21
+19> Visita para dia: 2/2/2002
+20> La visita dia se ha liberado exitosamente.
+21> Fin.

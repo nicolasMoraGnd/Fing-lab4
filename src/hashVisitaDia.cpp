@@ -20,6 +20,7 @@ int funcionHash(TFecha fecha, int cantEstimadas){
     return (31 * (int) mesTFecha(fecha) + (int) diaTFecha(fecha)) % cantEstimadas;
 }
 
+
 THashVisitaDia crearTHashVisitaDia(int cantEstimadas){
     THashVisitaDia nuevoHash = new rep_hashvisitadia;
     nuevoHash->nodos = new nodoHash[cantEstimadas];
@@ -35,9 +36,41 @@ THashVisitaDia crearTHashVisitaDia(int cantEstimadas){
 }
 
 void agregarVisitaDiaTHashVisitaDia(THashVisitaDia hash, TVisitaDia visitaDia){
+    int posicion = funcionHash(fechaTVisitaDia(visitaDia), hash->cantEstimada);
+    nodoHash posicionHash = hash->nodos[posicion];
+    
+    nodoHash nodoIns = new rep_nodoHash;
+    nodoIns->visita = visitaDia;
+    nodoIns->sig = NULL;
+
+    if (posicionHash == NULL)
+    {
+        hash->nodos[posicion] = nodoIns;
+    }else{
+        nodoIns->sig = posicionHash;
+        hash->nodos[posicion] = nodoIns;
+    }
 }
 
 void imprimirTHashVisitaDia(THashVisitaDia hash){
+    for (int i = 0; i < hash->cantEstimada; i++)
+    {
+        if (hash->nodos[i] != NULL)
+        {
+            printf("Elementos en la posicion %d de la tabla:\n", i);
+            nodoHash aux = hash->nodos[i];
+            while (aux != NULL)
+            {
+                imprimirTVisitaDia(aux->visita);
+                aux = aux->sig;
+            }
+            
+        }else{
+            printf("No hay elementos guardados la posicion %d de la tabla.\n", i);
+        }
+        
+    }
+    
 }
 
 TVisitaDia obtenerVisitaDiaTHashVisitaDia(THashVisitaDia hash, TFecha fecha){

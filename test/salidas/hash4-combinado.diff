@@ -1,0 +1,4 @@
+302c302
+< 54> La visitaDia de fecha 1/1/2024 pertenece al hash.
+---
+> 54> La visitaDia de fecha 1/1/2024 NO pertenece al hash.

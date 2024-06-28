@@ -1,0 +1,297 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> La visita dia se ha creado de forma exitosa.
+2> La visitaDia corresponde a la fecha: 2/7/1998
+3> Pueden existir 100 max grupos en la visitaDia.
+4> La cantidad de grupos en la visita dia es 0
+5> El grupoABB ha sido creado de forma exitosa.
+6> Visitante creado de forma exitosa.
+7> Se ha agregado el visitante al grupo de forma exitosa.
+8> Visitante creado de forma exitosa.
+9> Se ha agregado el visitante al grupo de forma exitosa.
+10> Se ha agregado el grupo a la visita dia de forma exitosa.
+11> La cantidad de grupos en la visita dia es 1
+12> Visita para dia: 2/7/1998
+
+Nivel 1
+1) Grupo 1 con edad promedio 24.00
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+13> El grupo con mayor prioridad de la visitaDia es:
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+14> El grupo de id 1 pertenece a la visitaDia.
+15> El grupo de id 2 NO pertenece a la visitaDia.
+16> La prioridad del grupo de id 1 es 24.00 .
+17> El grupoABB ha sido creado de forma exitosa.
+18> Visitante creado de forma exitosa.
+19> Se ha agregado el visitante al grupo de forma exitosa.
+20> Visitante creado de forma exitosa.
+21> Se ha agregado el visitante al grupo de forma exitosa.
+22> Se ha agregado el grupo a la visita dia de forma exitosa.
+23> El grupo de id 1 pertenece a la visitaDia.
+24> El grupo de id 2 pertenece a la visitaDia.
+25> La cantidad de grupos en la visita dia es 2
+26> La prioridad del grupo de id 1 es 24.00 .
+27> La prioridad del grupo de id 2 es 24.50 .
+28> Visita para dia: 2/7/1998
+
+Nivel 1
+1) Grupo 1 con edad promedio 24.00
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+
+Nivel 2
+2) Grupo 2 con edad promedio 24.50
+Visitante Peter Andersen
+Id: 3
+Edad: 21
+Visitante Everton Lopes
+Id: 4
+Edad: 28
+29> El grupo con mayor prioridad de la visitaDia es:
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+30> Se ejecuto invertirPrioridadTVisitaDia exitosamente.
+31> El grupo con mayor prioridad de la visitaDia es:
+Visitante Peter Andersen
+Id: 3
+Edad: 21
+Visitante Everton Lopes
+Id: 4
+Edad: 28
+32> El grupoABB ha sido creado de forma exitosa.
+33> Visitante creado de forma exitosa.
+34> Se ha agregado el visitante al grupo de forma exitosa.
+35> Visitante creado de forma exitosa.
+36> Se ha agregado el visitante al grupo de forma exitosa.
+37> Visitante creado de forma exitosa.
+38> Se ha agregado el visitante al grupo de forma exitosa.
+39> Se ha agregado el grupo a la visita dia de forma exitosa.
+40> El grupo de id 1 pertenece a la visitaDia.
+41> El grupo de id 2 pertenece a la visitaDia.
+42> El grupo de id 3 pertenece a la visitaDia.
+43> El grupo de id 4 NO pertenece a la visitaDia.
+44> Visita para dia: 2/7/1998
+
+Nivel 1
+1) Grupo 2 con edad promedio 24.50
+Visitante Peter Andersen
+Id: 3
+Edad: 21
+Visitante Everton Lopes
+Id: 4
+Edad: 28
+
+Nivel 2
+2) Grupo 1 con edad promedio 24.00
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+3) Grupo 3 con edad promedio 20.00
+Visitante Felix Godswill
+Id: 5
+Edad: 17
+Visitante Hugo Moron
+Id: 6
+Edad: 20
+Visitante Pablo Tapia
+Id: 7
+Edad: 23
+45> El grupo con mayor prioridad de la visitaDia es:
+Visitante Peter Andersen
+Id: 3
+Edad: 21
+Visitante Everton Lopes
+Id: 4
+Edad: 28
+46> Se ejecuto invertirPrioridadTVisitaDia exitosamente.
+47> El grupo con mayor prioridad de la visitaDia es:
+Visitante Felix Godswill
+Id: 5
+Edad: 17
+Visitante Hugo Moron
+Id: 6
+Edad: 20
+Visitante Pablo Tapia
+Id: 7
+Edad: 23
+48> El grupoABB ha sido creado de forma exitosa.
+49> Visitante creado de forma exitosa.
+50> Se ha agregado el visitante al grupo de forma exitosa.
+51> Se ha agregado el grupo a la visita dia de forma exitosa.
+52> Visita para dia: 2/7/1998
+
+Nivel 1
+1) Grupo 3 con edad promedio 20.00
+Visitante Felix Godswill
+Id: 5
+Edad: 17
+Visitante Hugo Moron
+Id: 6
+Edad: 20
+Visitante Pablo Tapia
+Id: 7
+Edad: 23
+
+Nivel 2
+2) Grupo 1 con edad promedio 24.00
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+3) Grupo 2 con edad promedio 24.50
+Visitante Peter Andersen
+Id: 3
+Edad: 21
+Visitante Everton Lopes
+Id: 4
+Edad: 28
+
+Nivel 3
+4) Grupo 4 con edad promedio 28.00
+Visitante Alexandros Syrokakis
+Id: 8
+Edad: 28
+53> Se ejecuto invertirPrioridadTVisitaDia exitosamente.
+54> Visita para dia: 2/7/1998
+
+Nivel 1
+1) Grupo 4 con edad promedio 28.00
+Visitante Alexandros Syrokakis
+Id: 8
+Edad: 28
+
+Nivel 2
+2) Grupo 1 con edad promedio 24.00
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+3) Grupo 2 con edad promedio 24.50
+Visitante Peter Andersen
+Id: 3
+Edad: 21
+Visitante Everton Lopes
+Id: 4
+Edad: 28
+
+Nivel 3
+4) Grupo 3 con edad promedio 20.00
+Visitante Felix Godswill
+Id: 5
+Edad: 17
+Visitante Hugo Moron
+Id: 6
+Edad: 20
+Visitante Pablo Tapia
+Id: 7
+Edad: 23
+55> El grupo con mayor prioridad de la visitaDia es:
+Visitante Alexandros Syrokakis
+Id: 8
+Edad: 28
+56> Visitante Alexandros Syrokakis
+Id: 8
+Edad: 28
+57> El grupo con mayor prioridad de la visitaDia es:
+Visitante Peter Andersen
+Id: 3
+Edad: 21
+Visitante Everton Lopes
+Id: 4
+Edad: 28
+58> Visitante Peter Andersen
+Id: 3
+Edad: 21
+Visitante Everton Lopes
+Id: 4
+Edad: 28
+59> Se ejecuto invertirPrioridadTVisitaDia exitosamente.
+60> Visita para dia: 2/7/1998
+
+Nivel 1
+1) Grupo 3 con edad promedio 20.00
+Visitante Felix Godswill
+Id: 5
+Edad: 17
+Visitante Hugo Moron
+Id: 6
+Edad: 20
+Visitante Pablo Tapia
+Id: 7
+Edad: 23
+
+Nivel 2
+2) Grupo 1 con edad promedio 24.00
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+61> Visitante Felix Godswill
+Id: 5
+Edad: 17
+Visitante Hugo Moron
+Id: 6
+Edad: 20
+Visitante Pablo Tapia
+Id: 7
+Edad: 23
+62> El grupo con mayor prioridad de la visitaDia es:
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+63> El grupo de id 1 pertenece a la visitaDia.
+64> El grupo de id 2 NO pertenece a la visitaDia.
+65> El grupo de id 3 NO pertenece a la visitaDia.
+66> El grupo de id 4 NO pertenece a la visitaDia.
+67> El grupoABB ha sido creado de forma exitosa.
+68> Visitante creado de forma exitosa.
+69> Se ha agregado el visitante al grupo de forma exitosa.
+70> Visitante creado de forma exitosa.
+71> Se ha agregado el visitante al grupo de forma exitosa.
+72> Se ha agregado el grupo a la visita dia de forma exitosa.
+73> El grupo con mayor prioridad de la visitaDia es:
+Visitante Fernando Perez
+Id: 1
+Edad: 27
+Visitante Brahim Moumen
+Id: 2
+Edad: 21
+74> Se ejecuto invertirPrioridadTVisitaDia exitosamente.
+75> El grupo con mayor prioridad de la visitaDia es:
+Visitante John Beesley
+Id: 9
+Edad: 33
+Visitante Jorge Sosa
+Id: 10
+Edad: 34
+76> La visita dia se ha liberado exitosamente.
+77> Fin.
