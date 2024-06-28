@@ -74,11 +74,38 @@ void imprimirTHashVisitaDia(THashVisitaDia hash){
 }
 
 TVisitaDia obtenerVisitaDiaTHashVisitaDia(THashVisitaDia hash, TFecha fecha){
-    return NULL;
+    nodoHash aux = hash->nodos[funcionHash(fecha, hash->cantEstimada)];
+
+    if (aux != NULL)
+    {
+        while (aux != NULL && compararTFechas(fecha, fechaTVisitaDia(aux->visita)) != 0)
+        {
+            aux = aux->sig;
+        }
+        if (aux != NULL)
+        {
+            return aux->visita;
+        }
+        return NULL;
+    }else{
+       return NULL; 
+    }
+    
 }
 
 bool perteneceVisitaDiaTHashVisitaDia(THashVisitaDia hash, TFecha fecha){
-    return false;
+    nodoHash aux = hash->nodos[funcionHash(fecha, hash->cantEstimada)];
+
+    if (aux != NULL)
+    {
+        while (aux != NULL && compararTFechas(fecha, fechaTVisitaDia(aux->visita)) != 0)
+        {
+            aux = aux->sig;
+        }
+        return aux != NULL;
+    }else{
+       return false; 
+    }
 }
 
 void liberarNodoHash(nodoHash listaNodos){

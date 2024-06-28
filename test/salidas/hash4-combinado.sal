@@ -299,7 +299,7 @@ No hay elementos guardados la posicion 96 de la tabla.
 No hay elementos guardados la posicion 97 de la tabla.
 No hay elementos guardados la posicion 98 de la tabla.
 No hay elementos guardados la posicion 99 de la tabla.
-54> La visitaDia de fecha 1/1/2024 NO pertenece al hash.
+54> La visitaDia de fecha 1/1/2024 pertenece al hash.
 55> No se puede obtener la visitaDia de fecha 1/1/200 porque NO pertenece al hash.
 56> Hash liberado con exito.
 57> Hash creado exitosamente.

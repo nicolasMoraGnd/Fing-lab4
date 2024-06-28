@@ -81,11 +81,11 @@
 < 28> Fin.
 ---
 > principal: principal.cpp:1580: void main_obtenerVisitaDiaTGaleria(TGaleria): Assertion `galeria != NULL' failed.
-> ==60594== 12 bytes in 1 blocks are definitely lost in loss record 1 of 4
-> ==60594==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-> ==60594==    by 0x1113AE: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
-> ==60594==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
-> ==60594==    by 0x10DCAA: main_crearGaleria(rep_galeria*&) (principal.cpp:1507)
-> ==60594==    by 0x10A722: main (principal.cpp:501)
-> ==60594== 
+> ==66720== 12 bytes in 1 blocks are definitely lost in loss record 1 of 4
+> ==66720==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==66720==    by 0x1114DB: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
+> ==66720==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
+> ==66720==    by 0x10DCAA: main_crearGaleria(rep_galeria*&) (principal.cpp:1507)
+> ==66720==    by 0x10A722: main (principal.cpp:501)
+> ==66720== 
 > Aborted
