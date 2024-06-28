@@ -48,22 +48,42 @@ Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
 47> La pieza de id 9 fue agregada a la exposicion de id 5.
 48> Exposiciones finalizadas:
 49> Exposiciones activas:
+Exposicion #4 del 10/1/2023 al 15/6/2024
+Piezas: 6 7 
+Exposicion #1 del 1/12/2023 al 1/1/2024
+Piezas: 1 2 
 50> Exposiciones futuras:
+Exposicion #2 del 2/1/2024 al 15/2/2024
+Piezas: 3 4 
+Exposicion #3 del 3/1/2024 al 15/2/2024
+Piezas: 5 
+Exposicion #5 del 10/4/2024 al 15/6/2024
+Piezas: 8 9 
 51> Se avanzo la fecha de la galeria a 5/1/2024
 52> Exposiciones finalizadas:
+Exposicion #1 del 1/12/2023 al 1/1/2024
+Piezas: 1 2 
 53> Exposiciones activas:
+Exposicion #4 del 10/1/2023 al 15/6/2024
+Piezas: 6 7 
+Exposicion #2 del 2/1/2024 al 15/2/2024
+Piezas: 3 4 
+Exposicion #3 del 3/1/2024 al 15/2/2024
+Piezas: 5 
 54> Exposiciones futuras:
+Exposicion #5 del 10/4/2024 al 15/6/2024
+Piezas: 8 9 
 55> Exposicion creada con exito.
 56> Piezas agregadas a la exposicion de forma exitosa.
-57> La exposicion NO es compatible con las demas exposiciones de la galeria.
+57> La exposicion es compatible con las demas exposiciones de la galeria.
 58> Exposicion liberada con exito.
 59> Exposicion creada con exito.
 60> Piezas agregadas a la exposicion de forma exitosa.
-61> La exposicion NO es compatible con las demas exposiciones de la galeria.
+61> La exposicion es compatible con las demas exposiciones de la galeria.
 62> Exposicion liberada con exito.
 63> Exposicion creada con exito.
 64> Piezas agregadas a la exposicion de forma exitosa.
-65> La exposicion NO es compatible con las demas exposiciones de la galeria.
+65> La exposicion es compatible con las demas exposiciones de la galeria.
 66> Exposicion liberada con exito.
 67> Exposicion creada con exito.
 68> Piezas agregadas a la exposicion de forma exitosa.
@@ -71,29 +91,3 @@ Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
 70> Exposicion liberada con exito.
 71> Galeria liberada con exito.
 72> Fin.
-==66501== 12 bytes in 1 blocks are definitely lost in loss record 1 of 9
-==66501==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==66501==    by 0x1114DB: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
-==66501==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
-==66501==    by 0x10DCAA: main_crearGaleria(rep_galeria*&) (principal.cpp:1507)
-==66501==    by 0x10A722: main (principal.cpp:501)
-==66501== 
-==66501== 12 bytes in 1 blocks are definitely lost in loss record 2 of 9
-==66501==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==66501==    by 0x1114DB: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
-==66501==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
-==66501==    by 0x10DDEF: main_avanzarAFechaGaleria(rep_galeria*) (principal.cpp:1535)
-==66501==    by 0x10A7FA: main (principal.cpp:509)
-==66501== 
-==66501== 450 (160 direct, 290 indirect) bytes in 5 blocks are definitely lost in loss record 8 of 9
-==66501==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==66501==    by 0x10EEEC: crearTExposicion(int, rep_fecha*, rep_fecha*, int) (exposicion.cpp:11)
-==66501==    by 0x10D2A5: main_crearExposicion(rep_exposicion*&) (principal.cpp:1284)
-==66501==    by 0x10A33A: main (principal.cpp:451)
-==66501== 
-==66501== 2,916 (2,808 direct, 108 indirect) bytes in 9 blocks are definitely lost in loss record 9 of 9
-==66501==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==66501==    by 0x111A51: crearTPieza(int, char const*, char const*, char const*, rep_fecha*) (pieza.cpp:14)
-==66501==    by 0x10B405: main_crearTPieza(rep_pieza*&, rep_fecha*&) (principal.cpp:705)
-==66501==    by 0x10972A: main (principal.cpp:299)
-==66501== 

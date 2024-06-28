@@ -1,17 +1,4 @@
-1,80c1,9
-< Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
-< 1> Galeria creada con exito.
-< 2> No existen registros de visitaDia para la fecha 1/5/2024
-< 3> El grupoABB ha sido creado de forma exitosa.
-< 4> Visitante creado de forma exitosa.
-< 5> Se ha agregado el visitante al grupo de forma exitosa.
-< 6> Visitante creado de forma exitosa.
-< 7> Se ha agregado el visitante al grupo de forma exitosa.
-< 8> Se ejecuto llegaGrupoTGaleria con exito.
-< 9> El grupoABB ha sido creado de forma exitosa.
-< 10> Visitante creado de forma exitosa.
-< 11> Se ha agregado el visitante al grupo de forma exitosa.
-< 12> Se ejecuto llegaGrupoTGaleria con exito.
+14,29c14
 < 13> Visita para dia: 2/5/2024
 < 
 < Nivel 1
@@ -28,8 +15,9 @@
 < Visitante Lilia Lopez
 < Id: 3
 < Edad: 51
-< 14> Se avanzo la fecha de la galeria a 4/5/2024
-< 15> No existen registros de visitaDia para la fecha 1/5/2024
+---
+> 13> No existen registros de visitaDia para la fecha 2/5/2024
+32,48c17,18
 < 16> Visita para dia: 2/5/2024
 < 
 < Nivel 1
@@ -47,11 +35,10 @@
 < Id: 3
 < Edad: 51
 < 17> Visita para dia: 4/5/2024
-< 18> El grupoABB ha sido creado de forma exitosa.
-< 19> Visitante creado de forma exitosa.
-< 20> Se ha agregado el visitante al grupo de forma exitosa.
-< 21> Se ejecuto llegaGrupoTGaleria con exito.
-< 22> Se avanzo la fecha de la galeria a 6/5/2024
+---
+> 16> No existen registros de visitaDia para la fecha 2/5/2024
+> 17> No existen registros de visitaDia para la fecha 4/5/2024
+54,77c24,26
 < 23> Visita para dia: 6/5/2024
 < 24> Visita para dia: 4/5/2024
 < 
@@ -76,16 +63,14 @@
 < Visitante Lilia Lopez
 < Id: 3
 < Edad: 51
-< 26> No existen registros de visitaDia para la fecha 1/5/2024
-< 27> Galeria liberada con exito.
-< 28> Fin.
 ---
-> principal: principal.cpp:1580: void main_obtenerVisitaDiaTGaleria(TGaleria): Assertion `galeria != NULL' failed.
-> ==66720== 12 bytes in 1 blocks are definitely lost in loss record 1 of 4
-> ==66720==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-> ==66720==    by 0x1114DB: crearTFecha(unsigned int, unsigned int, unsigned int) (fecha.cpp:10)
-> ==66720==    by 0x10AD2F: leerFecha(rep_fecha*&) (principal.cpp:594)
-> ==66720==    by 0x10DCAA: main_crearGaleria(rep_galeria*&) (principal.cpp:1507)
-> ==66720==    by 0x10A722: main (principal.cpp:501)
-> ==66720== 
-> Aborted
+> 23> No existen registros de visitaDia para la fecha 6/5/2024
+> 24> No existen registros de visitaDia para la fecha 4/5/2024
+> 25> No existen registros de visitaDia para la fecha 2/5/2024
+80a30,35
+> ==48701== 1,504 (48 direct, 1,456 indirect) bytes in 3 blocks are definitely lost in loss record 6 of 6
+> ==48701==    at 0x4842F95: operator new(unsigned long) (vg_replace_malloc.c:483)
+> ==48701==    by 0x409507: crearTGrupoABBVacio(int) (grupoABB.cpp:174)
+> ==48701==    by 0x403023: main_crearGrupoABB(rep_grupoABB*&, int&) (principal.cpp:794)
+> ==48701==    by 0x401732: main (principal.cpp:332)
+> ==48701== 

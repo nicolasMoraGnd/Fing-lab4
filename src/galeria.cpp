@@ -1,4 +1,5 @@
 #include "../include/galeria.h"
+#include <assert.h>
 
 struct rep_galeria{
     TColeccionPiezas piezas;
@@ -19,6 +20,7 @@ void agregarPiezaTGaleria(TGaleria galeria, TPieza pieza){
     }else{
         insertarPiezaColeccionPiezas(galeria->piezas, pieza);
     }
+    
 }
 
 void agregarExposicionTGaleria(TGaleria galeria, TExposicion expo){
@@ -31,7 +33,9 @@ void agregarExposicionTGaleria(TGaleria galeria, TExposicion expo){
     }else{
         agregarExposicionTListaExposiciones(galeria->activas, expo);
     }
+    
 }
+
 
 void agregarPiezaAExposicionTGaleria(TGaleria galeria, int idPieza, int idExpo){
     TPieza piezaId = crearTPieza(idPieza,"" , "", "", NULL);
@@ -52,6 +56,35 @@ void agregarPiezaAExposicionTGaleria(TGaleria galeria, int idPieza, int idExpo){
     liberarTPieza(piezaId);
 }
 
+void avanzarAFechaTGaleria(TGaleria galeria, TFecha fecha){
+    
+    assert(compararTFechas(fecha, galeria->fecha) == 1);
+    liberarTFecha(galeria->fecha);
+    //puede ser que haya que copiar la fecha, nose.
+    galeria->fecha = copiarTFecha(fecha);
+    
+    //actualizacion de las listaExposicion
+    TListaExposiciones dosListas = unirListaExposiciones(galeria->finalizadas, galeria->activas);
+    TListaExposiciones listasUnidas = unirListaExposiciones(dosListas, galeria->futuras);
+
+    liberarTListaExposiciones(dosListas, false);
+    liberarTListaExposiciones(galeria->finalizadas, false);
+    liberarTListaExposiciones(galeria->activas,false);
+    liberarTListaExposiciones(galeria->futuras,false);
+
+    galeria->finalizadas = obtenerExposicionesFinalizadas(listasUnidas, galeria->fecha);
+    galeria->activas = obtenerExposicionesActivas(listasUnidas, galeria->fecha);
+    galeria->futuras = listasUnidas;
+
+    listasUnidas = NULL;
+
+    //actualizacion VisitaDia
+    
+    agregarVisitaDiaTHashVisitaDia(galeria->hashVisita, galeria->visita);
+    galeria->visita = crearTVisitaDia(fecha, maxGruposTVisitaDia(galeria->visita));
+    
+}
+
 void imprimirExposicionesFinalizadasTGaleria(TGaleria galeria){
     imprimirTListaExposiciones(galeria->finalizadas);
 }
@@ -64,7 +97,7 @@ void imprimirExposicionesFuturasTGaleria(TGaleria galeria){
     imprimirTListaExposiciones(galeria->futuras);
 }
 
-bool esCompatibleExposicionTGaleria(TGaleria galeria, TExposicion expo){
+bool esCompatibleExposicionTGaleria(TGaleria galeria, TExposicion expo){ 
     return esCompatibleTListaExposiciones(galeria->finalizadas, expo) 
         && esCompatibleTListaExposiciones(galeria->futuras, expo)
         && esCompatibleTListaExposiciones(galeria->activas, expo);
@@ -72,7 +105,7 @@ bool esCompatibleExposicionTGaleria(TGaleria galeria, TExposicion expo){
 
 TGaleria crearTGaleria(TFecha fecha){
     TGaleria nuevaGaleria = new rep_galeria;
-    nuevaGaleria->fecha = fecha;
+    nuevaGaleria->fecha = copiarTFecha(fecha);
     nuevaGaleria->piezas = NULL;
     nuevaGaleria->finalizadas = NULL;
     nuevaGaleria->activas = NULL;
@@ -82,9 +115,6 @@ TGaleria crearTGaleria(TFecha fecha){
     nuevaGaleria->hashVisita = crearTHashVisitaDia(MAX_GRUPOS_VISITA_DIA);
     
     return nuevaGaleria;
-}
-
-void avanzarAFechaTGaleria(TGaleria galeria, TFecha fecha){
 }
 
 void liberarTGaleria(TGaleria &galeria){
