@@ -6,10 +6,19 @@ struct rep_galeria{
     TListaExposiciones finalizadas;
     TListaExposiciones activas;
     TListaExposiciones futuras;
-    
-    TVisitaDia visita;
-    THashVisitaDia hashVisita;
 };
+
+TGaleria crearTGaleria(TFecha fecha){ 
+    TGaleria nuevaGaleria = new rep_galeria;
+    nuevaGaleria->fecha = fecha;
+    nuevaGaleria->piezas = NULL;
+    nuevaGaleria->finalizadas = NULL;
+    nuevaGaleria->activas = NULL;
+    nuevaGaleria->futuras = NULL;
+    
+    return nuevaGaleria;
+    
+}
 
 void agregarPiezaTGaleria(TGaleria galeria, TPieza pieza){
     if (galeria->piezas == NULL)
@@ -19,6 +28,7 @@ void agregarPiezaTGaleria(TGaleria galeria, TPieza pieza){
     }else{
         insertarPiezaColeccionPiezas(galeria->piezas, pieza);
     }
+    
 }
 
 void agregarExposicionTGaleria(TGaleria galeria, TExposicion expo){
@@ -31,7 +41,9 @@ void agregarExposicionTGaleria(TGaleria galeria, TExposicion expo){
     }else{
         agregarExposicionTListaExposiciones(galeria->activas, expo);
     }
+    
 }
+
 
 void agregarPiezaAExposicionTGaleria(TGaleria galeria, int idPieza, int idExpo){
     TPieza piezaId = crearTPieza(idPieza,"" , "", "", NULL);
@@ -52,6 +64,32 @@ void agregarPiezaAExposicionTGaleria(TGaleria galeria, int idPieza, int idExpo){
     liberarTPieza(piezaId);
 }
 
+
+
+
+
+//perdida de memoria, nidea que
+void avanzarAFechaTGaleria(TGaleria galeria, TFecha fecha){
+    liberarTFecha(galeria->fecha);
+    galeria->fecha = fecha;
+     
+    TListaExposiciones dosListas = unirListaExposiciones(galeria->finalizadas, galeria->activas);
+    TListaExposiciones listasUnidas = unirListaExposiciones(dosListas, galeria->futuras);
+
+    liberarTListaExposiciones(dosListas, false);
+    liberarTListaExposiciones(galeria->finalizadas, false);
+    liberarTListaExposiciones(galeria->activas,false);
+    liberarTListaExposiciones(galeria->futuras,false);
+
+    galeria->finalizadas = obtenerExposicionesFinalizadas(listasUnidas, galeria->fecha);
+    galeria->activas = obtenerExposicionesActivas(listasUnidas, galeria->fecha);
+    galeria->futuras = listasUnidas;
+
+    
+    listasUnidas = NULL;
+    
+}
+
 void imprimirExposicionesFinalizadasTGaleria(TGaleria galeria){
     imprimirTListaExposiciones(galeria->finalizadas);
 }
@@ -64,27 +102,10 @@ void imprimirExposicionesFuturasTGaleria(TGaleria galeria){
     imprimirTListaExposiciones(galeria->futuras);
 }
 
-bool esCompatibleExposicionTGaleria(TGaleria galeria, TExposicion expo){
+bool esCompatibleExposicionTGaleria(TGaleria galeria, TExposicion expo){ 
     return esCompatibleTListaExposiciones(galeria->finalizadas, expo) 
         && esCompatibleTListaExposiciones(galeria->futuras, expo)
         && esCompatibleTListaExposiciones(galeria->activas, expo);
-}
-
-TGaleria crearTGaleria(TFecha fecha){
-    TGaleria nuevaGaleria = new rep_galeria;
-    nuevaGaleria->fecha = fecha;
-    nuevaGaleria->piezas = NULL;
-    nuevaGaleria->finalizadas = NULL;
-    nuevaGaleria->activas = NULL;
-    nuevaGaleria->futuras = NULL;
-
-    nuevaGaleria->visita = crearTVisitaDia(fecha, MAX_GRUPOS_VISITA_DIA);
-    nuevaGaleria->hashVisita = crearTHashVisitaDia(MAX_GRUPOS_VISITA_DIA);
-    
-    return nuevaGaleria;
-}
-
-void avanzarAFechaTGaleria(TGaleria galeria, TFecha fecha){
 }
 
 void liberarTGaleria(TGaleria &galeria){
@@ -94,30 +115,6 @@ void liberarTGaleria(TGaleria &galeria){
     liberarTListaExposiciones(galeria->activas, true);
     liberarTListaExposiciones(galeria->futuras, true);
 
-    liberarTVisitaDia(galeria->visita);
-    liberarTHashVisitaDia(galeria->hashVisita);
-
     delete galeria;
     galeria = NULL;
-}
-
-// Funciones tarea 4
-
-TConjuntoPiezas piezasEnExposicionTGaleria(TGaleria galeria){
-    return NULL;
-}
-
-float indiceFelicidadVisitanteTGaleria(TGaleria galeria, TVisitante visitante){
-    return 0.0;
-}
-
-void llegaGrupoTGaleria(TGaleria galeria, TGrupoABB grupoABB){
-}
-
-TConjuntoPiezas piezasEnReservaTGaleria(TGaleria galeria){    
-    return NULL;
-}
-
-TVisitaDia obtenerVisitaDiaTGaleria(TGaleria galeria, TFecha fecha){
-    return NULL;
 }
