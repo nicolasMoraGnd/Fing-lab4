@@ -1,2 +1,0 @@
-principal: principal.cpp:1643: void main_imprimirTHashVisitaDia(THashVisitaDia): Assertion `hash != NULL' failed.
-Aborted
