@@ -1,18 +1,18 @@
-==48723== Invalid read of size 4
-==48723==    at 0x4060FA: imprimirTConjuntoPiezas(rep_conjuntopiezas*) (conjuntoPiezas.cpp:46)
-==48723==    by 0x4050FB: main_piezasEnExposicionTGaleria(rep_galeria*) (principal.cpp:1602)
-==48723==    by 0x402493: main (principal.cpp:526)
-==48723==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
-==48723== 
-==48723== 
-==48723== Process terminating with default action of signal 11 (SIGSEGV): dumping core
-==48723==  Access not within mapped region at address 0x10
-==48723==    at 0x4060FA: imprimirTConjuntoPiezas(rep_conjuntopiezas*) (conjuntoPiezas.cpp:46)
-==48723==    by 0x4050FB: main_piezasEnExposicionTGaleria(rep_galeria*) (principal.cpp:1602)
-==48723==    by 0x402493: main (principal.cpp:526)
-==48723==  If you believe this happened as a result of a stack
-==48723==  overflow in your program's main thread (unlikely but
-==48723==  possible), you can try to increase the size of the
-==48723==  main thread stack using the --main-stacksize= flag.
-==48723==  The main thread stack size used in this run was 8388608.
-timeout: la orden monitorizada ha volcado un 'core'
+==17472== Invalid read of size 4
+==17472==    at 0x10F42C: imprimirTConjuntoPiezas(rep_conjuntopiezas*) (conjuntoPiezas.cpp:46)
+==17472==    by 0x10E110: main_piezasEnExposicionTGaleria(rep_galeria*) (principal.cpp:1602)
+==17472==    by 0x10A996: main (principal.cpp:526)
+==17472==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
+==17472== 
+==17472== 
+==17472== Process terminating with default action of signal 11 (SIGSEGV)
+==17472==  Access not within mapped region at address 0x10
+==17472==    at 0x10F42C: imprimirTConjuntoPiezas(rep_conjuntopiezas*) (conjuntoPiezas.cpp:46)
+==17472==    by 0x10E110: main_piezasEnExposicionTGaleria(rep_galeria*) (principal.cpp:1602)
+==17472==    by 0x10A996: main (principal.cpp:526)
+==17472==  If you believe this happened as a result of a stack
+==17472==  overflow in your program's main thread (unlikely but
+==17472==  possible), you can try to increase the size of the
+==17472==  main thread stack using the --main-stacksize= flag.
+==17472==  The main thread stack size used in this run was 8388608.
+Segmentation fault

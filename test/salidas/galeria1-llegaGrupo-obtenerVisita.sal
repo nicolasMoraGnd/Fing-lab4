@@ -11,25 +11,70 @@ Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
 10> Visitante creado de forma exitosa.
 11> Se ha agregado el visitante al grupo de forma exitosa.
 12> Se ejecuto llegaGrupoTGaleria con exito.
-13> No existen registros de visitaDia para la fecha 2/5/2024
+13> Visita para dia: 2/5/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 22.50
+Visitante Azalea Blanco
+Id: 4
+Edad: 25
+Visitante Gardenia Perez
+Id: 10
+Edad: 20
+
+Nivel 2
+2) Grupo 2 con edad promedio 51.00
+Visitante Lilia Lopez
+Id: 3
+Edad: 51
 14> Se avanzo la fecha de la galeria a 4/5/2024
 15> No existen registros de visitaDia para la fecha 1/5/2024
-16> No existen registros de visitaDia para la fecha 2/5/2024
-17> No existen registros de visitaDia para la fecha 4/5/2024
+16> Visita para dia: 2/5/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 22.50
+Visitante Azalea Blanco
+Id: 4
+Edad: 25
+Visitante Gardenia Perez
+Id: 10
+Edad: 20
+
+Nivel 2
+2) Grupo 2 con edad promedio 51.00
+Visitante Lilia Lopez
+Id: 3
+Edad: 51
+17> Visita para dia: 4/5/2024
 18> El grupoABB ha sido creado de forma exitosa.
 19> Visitante creado de forma exitosa.
 20> Se ha agregado el visitante al grupo de forma exitosa.
 21> Se ejecuto llegaGrupoTGaleria con exito.
 22> Se avanzo la fecha de la galeria a 6/5/2024
-23> No existen registros de visitaDia para la fecha 6/5/2024
-24> No existen registros de visitaDia para la fecha 4/5/2024
-25> No existen registros de visitaDia para la fecha 2/5/2024
+23> Visita para dia: 6/5/2024
+24> Visita para dia: 4/5/2024
+
+Nivel 1
+1) Grupo 3 con edad promedio 40.00
+Visitante Irisia Dominguez
+Id: 6
+Edad: 40
+25> Visita para dia: 2/5/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 22.50
+Visitante Azalea Blanco
+Id: 4
+Edad: 25
+Visitante Gardenia Perez
+Id: 10
+Edad: 20
+
+Nivel 2
+2) Grupo 2 con edad promedio 51.00
+Visitante Lilia Lopez
+Id: 3
+Edad: 51
 26> No existen registros de visitaDia para la fecha 1/5/2024
 27> Galeria liberada con exito.
 28> Fin.
-==48701== 1,504 (48 direct, 1,456 indirect) bytes in 3 blocks are definitely lost in loss record 6 of 6
-==48701==    at 0x4842F95: operator new(unsigned long) (vg_replace_malloc.c:483)
-==48701==    by 0x409507: crearTGrupoABBVacio(int) (grupoABB.cpp:174)
-==48701==    by 0x403023: main_crearGrupoABB(rep_grupoABB*&, int&) (principal.cpp:794)
-==48701==    by 0x401732: main (principal.cpp:332)
-==48701== 

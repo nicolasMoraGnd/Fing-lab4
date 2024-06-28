@@ -142,6 +142,7 @@ float indiceFelicidadVisitanteTGaleria(TGaleria galeria, TVisitante visitante){
 }
 
 void llegaGrupoTGaleria(TGaleria galeria, TGrupoABB grupoABB){
+    encolarGrupoTVisitaDia(galeria->visita, grupoABB);
 }
 
 TConjuntoPiezas piezasEnReservaTGaleria(TGaleria galeria){    
@@ -149,5 +150,8 @@ TConjuntoPiezas piezasEnReservaTGaleria(TGaleria galeria){
 }
 
 TVisitaDia obtenerVisitaDiaTGaleria(TGaleria galeria, TFecha fecha){
-    return NULL;
+    if(compararTFechas(fecha, galeria->fecha) == 0){
+        return galeria->visita;
+    }
+    return obtenerVisitaDiaTHashVisitaDia(galeria->hashVisita,fecha);
 }

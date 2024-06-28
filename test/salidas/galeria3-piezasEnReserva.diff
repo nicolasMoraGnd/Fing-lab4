@@ -35,21 +35,21 @@
 < 27> Galeria liberada con exito.
 < 28> Fin.
 ---
-> ==48747== Invalid read of size 4
-> ==48747==    at 0x4060FA: imprimirTConjuntoPiezas(rep_conjuntopiezas*) (conjuntoPiezas.cpp:46)
-> ==48747==    by 0x4051CB: main_piezasEnReservaTGaleria(rep_galeria*) (principal.cpp:1618)
-> ==48747==    by 0x4024EC: main (principal.cpp:530)
-> ==48747==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
-> ==48747== 
-> ==48747== 
-> ==48747== Process terminating with default action of signal 11 (SIGSEGV): dumping core
-> ==48747==  Access not within mapped region at address 0x10
-> ==48747==    at 0x4060FA: imprimirTConjuntoPiezas(rep_conjuntopiezas*) (conjuntoPiezas.cpp:46)
-> ==48747==    by 0x4051CB: main_piezasEnReservaTGaleria(rep_galeria*) (principal.cpp:1618)
-> ==48747==    by 0x4024EC: main (principal.cpp:530)
-> ==48747==  If you believe this happened as a result of a stack
-> ==48747==  overflow in your program's main thread (unlikely but
-> ==48747==  possible), you can try to increase the size of the
-> ==48747==  main thread stack using the --main-stacksize= flag.
-> ==48747==  The main thread stack size used in this run was 8388608.
-> timeout: la orden monitorizada ha volcado un 'core'
+> ==17484== Invalid read of size 4
+> ==17484==    at 0x10F42C: imprimirTConjuntoPiezas(rep_conjuntopiezas*) (conjuntoPiezas.cpp:46)
+> ==17484==    by 0x10E233: main_piezasEnReservaTGaleria(rep_galeria*) (principal.cpp:1618)
+> ==17484==    by 0x10AA02: main (principal.cpp:530)
+> ==17484==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
+> ==17484== 
+> ==17484== 
+> ==17484== Process terminating with default action of signal 11 (SIGSEGV)
+> ==17484==  Access not within mapped region at address 0x10
+> ==17484==    at 0x10F42C: imprimirTConjuntoPiezas(rep_conjuntopiezas*) (conjuntoPiezas.cpp:46)
+> ==17484==    by 0x10E233: main_piezasEnReservaTGaleria(rep_galeria*) (principal.cpp:1618)
+> ==17484==    by 0x10AA02: main (principal.cpp:530)
+> ==17484==  If you believe this happened as a result of a stack
+> ==17484==  overflow in your program's main thread (unlikely but
+> ==17484==  possible), you can try to increase the size of the
+> ==17484==  main thread stack using the --main-stacksize= flag.
+> ==17484==  The main thread stack size used in this run was 8388608.
+> Segmentation fault
