@@ -10,6 +10,7 @@ struct rep_galeria{
     
     TVisitaDia visita;
     THashVisitaDia hashVisita;
+    TConjuntoPiezas stockPiezas;
 };
 
 void agregarPiezaTGaleria(TGaleria galeria, TPieza pieza){
@@ -20,6 +21,8 @@ void agregarPiezaTGaleria(TGaleria galeria, TPieza pieza){
     }else{
         insertarPiezaColeccionPiezas(galeria->piezas, pieza);
     }
+
+    insertarTConjuntoPiezas(galeria->stockPiezas, idTPieza(pieza));
     
 }
 
@@ -113,7 +116,8 @@ TGaleria crearTGaleria(TFecha fecha){
 
     nuevaGaleria->visita = crearTVisitaDia(fecha, MAX_GRUPOS_VISITA_DIA);
     nuevaGaleria->hashVisita = crearTHashVisitaDia(MAX_GRUPOS_VISITA_DIA);
-    
+    nuevaGaleria->stockPiezas = crearTConjuntoPiezas(MAX_PIEZAS);
+
     return nuevaGaleria;
 }
 
@@ -126,6 +130,7 @@ void liberarTGaleria(TGaleria &galeria){
 
     liberarTVisitaDia(galeria->visita);
     liberarTHashVisitaDia(galeria->hashVisita);
+    liberarTConjuntoPiezas(galeria->stockPiezas);
 
     delete galeria;
     galeria = NULL;
