@@ -58,6 +58,28 @@ void liberarTConjuntoPiezas(TConjuntoPiezas &c){
 }
 
 TConjuntoPiezas unionTConjuntoPiezas(TConjuntoPiezas c1, TConjuntoPiezas c2){ 
+    if (c1 == NULL)
+    {
+        TConjuntoPiezas cUnion = crearTConjuntoPiezas(c2->cantMax);
+        for(int i = 0; i < c2->cantMax; i++ ){
+            if(c2->elementos[i]){
+                cUnion->elementos[i] = true;
+                cUnion->cantidad++;
+            }
+        }
+        return cUnion;
+
+    }else if(c2 == NULL){
+        TConjuntoPiezas cUnion = crearTConjuntoPiezas(c1->cantMax);
+        for(int i = 0; i < c1->cantMax; i++ ){
+            if(c1->elementos[i]){
+                cUnion->elementos[i] = true;
+                cUnion->cantidad++;
+            }
+        }
+        return cUnion;
+    }
+    
     TConjuntoPiezas cUnion = crearTConjuntoPiezas(c1->cantMax);
     for(int i = 0; i < c1->cantMax; i++ ){
         if(c1->elementos[i] || c2->elementos[i]){
@@ -70,6 +92,9 @@ TConjuntoPiezas unionTConjuntoPiezas(TConjuntoPiezas c1, TConjuntoPiezas c2){
 }
 
 TConjuntoPiezas interseccionTConjuntoPiezas(TConjuntoPiezas c1, TConjuntoPiezas c2){
+    if (c1 == NULL || c2 == NULL){
+        return NULL;
+    }
     TConjuntoPiezas cInter = crearTConjuntoPiezas(c1->cantMax);
     for(int i = 0; i < c1->cantMax; i++ ){
         if(c1->elementos[i] && c2->elementos[i]){

@@ -133,8 +133,28 @@ void liberarTGaleria(TGaleria &galeria){
 
 // Funciones tarea 4
 
+//to do: refactorizar y hacer bien, hay que entrgar burises
 TConjuntoPiezas piezasEnExposicionTGaleria(TGaleria galeria){
-    return NULL;
+    if(galeria->activas != NULL){
+        TConjuntoPiezas piezasRetorno = unionTConjuntoPiezas(NULL, obtenerPiezasTExposicion(obtenerNesimaExposicionTListaExposiciones(galeria->activas, 1)));
+        TConjuntoPiezas piezasAux = NULL;
+        TExposicion aux;
+        int cantidadExpos = cantidadExposicionesTListaExposiciones(galeria->activas);
+
+        for (int i = 2; i <= cantidadExpos; i++)
+        {
+            piezasAux = piezasRetorno;
+
+            aux = obtenerNesimaExposicionTListaExposiciones(galeria->activas, i);
+
+            piezasRetorno = unionTConjuntoPiezas(piezasAux, obtenerPiezasTExposicion(aux));
+            liberarTConjuntoPiezas(piezasAux);      
+        }
+
+        return piezasRetorno;
+    }else{
+        return NULL;
+    }
 }
 
 float indiceFelicidadVisitanteTGaleria(TGaleria galeria, TVisitante visitante){
