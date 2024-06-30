@@ -1,0 +1,93 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Galeria creada con exito.
+2> Fecha creada en forma exitosa.
+3> Pieza creada en forma exitosa.
+4> La pieza fue agregada a la galeria con exito.
+5> Fecha creada en forma exitosa.
+6> Pieza creada en forma exitosa.
+7> La pieza fue agregada a la galeria con exito.
+8> Fecha creada en forma exitosa.
+9> Pieza creada en forma exitosa.
+10> La pieza fue agregada a la galeria con exito.
+11> Fecha creada en forma exitosa.
+12> Pieza creada en forma exitosa.
+13> La pieza fue agregada a la galeria con exito.
+14> Fecha creada en forma exitosa.
+15> Pieza creada en forma exitosa.
+16> La pieza fue agregada a la galeria con exito.
+17> Fecha creada en forma exitosa.
+18> Pieza creada en forma exitosa.
+19> La pieza fue agregada a la galeria con exito.
+20> Fecha creada en forma exitosa.
+21> Pieza creada en forma exitosa.
+22> La pieza fue agregada a la galeria con exito.
+23> Fecha creada en forma exitosa.
+24> Pieza creada en forma exitosa.
+25> La pieza fue agregada a la galeria con exito.
+26> Fecha creada en forma exitosa.
+27> Pieza creada en forma exitosa.
+28> La pieza fue agregada a la galeria con exito.
+29> Exposicion creada con exito.
+30> La exposicion fue agregada a la galeria con exito.
+31> Exposicion creada con exito.
+32> La exposicion fue agregada a la galeria con exito.
+33> Exposicion creada con exito.
+34> La exposicion fue agregada a la galeria con exito.
+35> Exposicion creada con exito.
+36> La exposicion fue agregada a la galeria con exito.
+37> Exposicion creada con exito.
+38> La exposicion fue agregada a la galeria con exito.
+39> La pieza de id 1 fue agregada a la exposicion de id 1.
+40> La pieza de id 2 fue agregada a la exposicion de id 1.
+41> La pieza de id 3 fue agregada a la exposicion de id 2.
+42> La pieza de id 4 fue agregada a la exposicion de id 2.
+43> La pieza de id 5 fue agregada a la exposicion de id 3.
+44> La pieza de id 6 fue agregada a la exposicion de id 4.
+45> La pieza de id 7 fue agregada a la exposicion de id 4.
+46> La pieza de id 8 fue agregada a la exposicion de id 5.
+47> La pieza de id 9 fue agregada a la exposicion de id 5.
+48> Exposiciones finalizadas:
+49> Exposiciones activas:
+Exposicion #4 del 10/1/2023 al 15/6/2024
+Piezas: 6 7 
+Exposicion #1 del 1/12/2023 al 1/1/2024
+Piezas: 1 2 
+50> Exposiciones futuras:
+Exposicion #2 del 2/1/2024 al 15/2/2024
+Piezas: 3 4 
+Exposicion #3 del 3/1/2024 al 15/2/2024
+Piezas: 5 
+Exposicion #5 del 10/4/2024 al 15/6/2024
+Piezas: 8 9 
+51> Se avanzo la fecha de la galeria a 5/1/2024
+52> Exposiciones finalizadas:
+Exposicion #1 del 1/12/2023 al 1/1/2024
+Piezas: 1 2 
+53> Exposiciones activas:
+Exposicion #4 del 10/1/2023 al 15/6/2024
+Piezas: 6 7 
+Exposicion #2 del 2/1/2024 al 15/2/2024
+Piezas: 3 4 
+Exposicion #3 del 3/1/2024 al 15/2/2024
+Piezas: 5 
+54> Exposiciones futuras:
+Exposicion #5 del 10/4/2024 al 15/6/2024
+Piezas: 8 9 
+55> Exposicion creada con exito.
+56> Piezas agregadas a la exposicion de forma exitosa.
+57> La exposicion es compatible con las demas exposiciones de la galeria.
+58> Exposicion liberada con exito.
+59> Exposicion creada con exito.
+60> Piezas agregadas a la exposicion de forma exitosa.
+61> La exposicion es compatible con las demas exposiciones de la galeria.
+62> Exposicion liberada con exito.
+63> Exposicion creada con exito.
+64> Piezas agregadas a la exposicion de forma exitosa.
+65> La exposicion es compatible con las demas exposiciones de la galeria.
+66> Exposicion liberada con exito.
+67> Exposicion creada con exito.
+68> Piezas agregadas a la exposicion de forma exitosa.
+69> La exposicion NO es compatible con las demas exposiciones de la galeria.
+70> Exposicion liberada con exito.
+71> Galeria liberada con exito.
+72> Fin.

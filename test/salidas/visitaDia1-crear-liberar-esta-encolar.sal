@@ -1,0 +1,97 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> La visita dia se ha creado de forma exitosa.
+2> Visita para dia: 1/1/2001
+3> Pueden existir 100 max grupos en la visitaDia.
+4> La visitaDia corresponde a la fecha: 1/1/2001
+5> La visita dia se ha liberado exitosamente.
+6> La visita dia se ha creado de forma exitosa.
+7> El grupoABB ha sido creado de forma exitosa.
+8> Visitante creado de forma exitosa.
+9> Se ha agregado el visitante al grupo de forma exitosa.
+10> Se ha agregado el grupo a la visita dia de forma exitosa.
+11> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+12> El grupoABB ha sido creado de forma exitosa.
+13> Visitante creado de forma exitosa.
+14> Se ha agregado el visitante al grupo de forma exitosa.
+15> Se ha agregado el grupo a la visita dia de forma exitosa.
+16> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+
+Nivel 2
+2) Grupo 2 con edad promedio 25.00
+Visitante Nombre2 Apellido2
+Id: 2
+Edad: 25
+17> El grupoABB ha sido creado de forma exitosa.
+18> Visitante creado de forma exitosa.
+19> Se ha agregado el visitante al grupo de forma exitosa.
+20> Se ha agregado el grupo a la visita dia de forma exitosa.
+21> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 3 con edad promedio 19.00
+Visitante Nombre3 Apellido3
+Id: 3
+Edad: 19
+
+Nivel 2
+2) Grupo 2 con edad promedio 25.00
+Visitante Nombre2 Apellido2
+Id: 2
+Edad: 25
+3) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+22> El grupoABB ha sido creado de forma exitosa.
+23> Visitante creado de forma exitosa.
+24> Se ha agregado el visitante al grupo de forma exitosa.
+25> Visitante creado de forma exitosa.
+26> Se ha agregado el visitante al grupo de forma exitosa.
+27> Se ha agregado el grupo a la visita dia de forma exitosa.
+28> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 3 con edad promedio 19.00
+Visitante Nombre3 Apellido3
+Id: 3
+Edad: 19
+
+Nivel 2
+2) Grupo 4 con edad promedio 19.50
+Visitante Nombre4 Apellido4
+Id: 4
+Edad: 20
+Visitante Nombre5 Apellido5
+Id: 5
+Edad: 19
+3) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+
+Nivel 3
+4) Grupo 2 con edad promedio 25.00
+Visitante Nombre2 Apellido2
+Id: 2
+Edad: 25
+29> El grupo de id 4 pertenece a la visitaDia.
+30> El grupo de id 5 NO pertenece a la visitaDia.
+31> El grupo de id 0 NO pertenece a la visitaDia.
+32> El grupo de id 10 NO pertenece a la visitaDia.
+33> La visita dia se ha liberado exitosamente.
+34> La visita dia se ha creado de forma exitosa.
+35> El grupo de id 4 NO pertenece a la visitaDia.
+36> La visita dia se ha liberado exitosamente.
+37> Fin.

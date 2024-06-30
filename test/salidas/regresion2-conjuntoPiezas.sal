@@ -1,0 +1,44 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> El conjunto piezas fue creado en forma correcta.
+2> El cardinal del conjunto es: 0.
+3> La cantidad maxima del conjunto es: 10.
+4> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 0 exitosamente.
+5> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 1 exitosamente.
+6> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 2 exitosamente.
+7> Se ejecuto 'borrarDeTConjuntoPiezas' con pieza de id 1 exitosamente.
+8> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 3 exitosamente.
+9> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 6 exitosamente.
+10> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 7 exitosamente.
+11> Se ejecuto 'borrarDeTConjuntoPiezas' con pieza de id 2 exitosamente.
+12> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 8 exitosamente.
+13> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 9 exitosamente.
+14> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 1 exitosamente.
+15> Se ejecuto 'insertarTConjuntoPiezas' con pieza de id 2 exitosamente.
+16> El cardinal del conjunto es: 8.
+17> La cantidad maxima del conjunto es: 10.
+18> Conjunto de piezas:
+0 1 2 3 6 7 8 9 
+19> Conjunto de piezas union:
+0 1 2 3 4 5 6 7 8 9 
+20> Conjunto de piezas interseccion:
+1 3 6 
+21> Conjunto de piezas diferencia:
+0 2 7 8 9 
+22> Se ejecuto 'borrarDeTConjuntoPiezas' con pieza de id 1 exitosamente.
+23> Se ejecuto 'borrarDeTConjuntoPiezas' con pieza de id 2 exitosamente.
+24> Conjunto de piezas union:
+0 1 3 4 5 6 7 8 9 
+25> Conjunto de piezas interseccion:
+3 6 
+26> Conjunto de piezas diferencia:
+0 7 8 9 
+27> Se ejecuto 'borrarDeTConjuntoPiezas' con pieza de id 8 exitosamente.
+28> Se ejecuto 'borrarDeTConjuntoPiezas' con pieza de id 9 exitosamente.
+29> Conjunto de piezas union:
+0 1 3 4 5 6 7 
+30> Conjunto de piezas interseccion:
+3 6 
+31> Conjunto de piezas diferencia:
+0 7 
+32> Conjunto de piezas liberado exitosamente.
+33> Fin.

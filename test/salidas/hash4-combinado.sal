@@ -1,0 +1,389 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Hash creado exitosamente.
+2> No hay elementos guardados la posicion 0 de la tabla.
+3> La visita dia se ha creado de forma exitosa.
+4> El grupoABB ha sido creado de forma exitosa.
+5> Visitante creado de forma exitosa.
+6> Se ha agregado el visitante al grupo de forma exitosa.
+7> Se ha agregado el grupo a la visita dia de forma exitosa.
+8> Visita dia agregada al hash exitosamente.
+9> La visita dia se ha creado de forma exitosa.
+10> El grupoABB ha sido creado de forma exitosa.
+11> Visitante creado de forma exitosa.
+12> Se ha agregado el visitante al grupo de forma exitosa.
+13> Se ha agregado el grupo a la visita dia de forma exitosa.
+14> Visita dia agregada al hash exitosamente.
+15> La visita dia se ha creado de forma exitosa.
+16> El grupoABB ha sido creado de forma exitosa.
+17> Visitante creado de forma exitosa.
+18> Se ha agregado el visitante al grupo de forma exitosa.
+19> Se ha agregado el grupo a la visita dia de forma exitosa.
+20> Visita dia agregada al hash exitosamente.
+21> La visita dia se ha creado de forma exitosa.
+22> El grupoABB ha sido creado de forma exitosa.
+23> Visitante creado de forma exitosa.
+24> Se ha agregado el visitante al grupo de forma exitosa.
+25> Se ha agregado el grupo a la visita dia de forma exitosa.
+26> Visita dia agregada al hash exitosamente.
+27> La visita dia se ha creado de forma exitosa.
+28> El grupoABB ha sido creado de forma exitosa.
+29> Visitante creado de forma exitosa.
+30> Se ha agregado el visitante al grupo de forma exitosa.
+31> Se ha agregado el grupo a la visita dia de forma exitosa.
+32> Visita dia agregada al hash exitosamente.
+33> La visita dia se ha creado de forma exitosa.
+34> El grupoABB ha sido creado de forma exitosa.
+35> Visitante creado de forma exitosa.
+36> Se ha agregado el visitante al grupo de forma exitosa.
+37> Se ha agregado el grupo a la visita dia de forma exitosa.
+38> Visita dia agregada al hash exitosamente.
+39> La visitaDia de fecha 6/6/2025 NO pertenece al hash.
+40> No se puede obtener la visitaDia de fecha 6/6/2025 porque NO pertenece al hash.
+41> La visitaDia de fecha 10/9/2000 NO pertenece al hash.
+42> No se puede obtener la visitaDia de fecha 28/2/2000 porque NO pertenece al hash.
+43> Elementos en la posicion 0 de la tabla:
+Visita para dia: 5/5/2023
+
+Nivel 1
+1) Grupo 6 con edad promedio 41.00
+Visitante Jasmina Lopez
+Id: 6
+Edad: 41
+Visita para dia: 21/12/2023
+
+Nivel 1
+1) Grupo 5 con edad promedio 45.00
+Visitante Camilia Castro
+Id: 5
+Edad: 45
+Visita para dia: 15/9/2023
+
+Nivel 1
+1) Grupo 4 con edad promedio 33.00
+Visitante Rosa Iglesias
+Id: 4
+Edad: 33
+Visita para dia: 12/2/2024
+
+Nivel 1
+1) Grupo 3 con edad promedio 29.00
+Visitante Dalia Vidal
+Id: 3
+Edad: 29
+Visita para dia: 30/1/2023
+
+Nivel 1
+1) Grupo 2 con edad promedio 40.00
+Visitante Irisia Blanco
+Id: 2
+Edad: 40
+Visita para dia: 3/4/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Violeta Castro
+Id: 1
+Edad: 20
+44> Hash liberado con exito.
+45> Hash creado exitosamente.
+46> No hay elementos guardados la posicion 0 de la tabla.
+No hay elementos guardados la posicion 1 de la tabla.
+No hay elementos guardados la posicion 2 de la tabla.
+No hay elementos guardados la posicion 3 de la tabla.
+No hay elementos guardados la posicion 4 de la tabla.
+No hay elementos guardados la posicion 5 de la tabla.
+No hay elementos guardados la posicion 6 de la tabla.
+No hay elementos guardados la posicion 7 de la tabla.
+No hay elementos guardados la posicion 8 de la tabla.
+No hay elementos guardados la posicion 9 de la tabla.
+No hay elementos guardados la posicion 10 de la tabla.
+No hay elementos guardados la posicion 11 de la tabla.
+No hay elementos guardados la posicion 12 de la tabla.
+No hay elementos guardados la posicion 13 de la tabla.
+No hay elementos guardados la posicion 14 de la tabla.
+No hay elementos guardados la posicion 15 de la tabla.
+No hay elementos guardados la posicion 16 de la tabla.
+No hay elementos guardados la posicion 17 de la tabla.
+No hay elementos guardados la posicion 18 de la tabla.
+No hay elementos guardados la posicion 19 de la tabla.
+No hay elementos guardados la posicion 20 de la tabla.
+No hay elementos guardados la posicion 21 de la tabla.
+No hay elementos guardados la posicion 22 de la tabla.
+No hay elementos guardados la posicion 23 de la tabla.
+No hay elementos guardados la posicion 24 de la tabla.
+No hay elementos guardados la posicion 25 de la tabla.
+No hay elementos guardados la posicion 26 de la tabla.
+No hay elementos guardados la posicion 27 de la tabla.
+No hay elementos guardados la posicion 28 de la tabla.
+No hay elementos guardados la posicion 29 de la tabla.
+No hay elementos guardados la posicion 30 de la tabla.
+No hay elementos guardados la posicion 31 de la tabla.
+No hay elementos guardados la posicion 32 de la tabla.
+No hay elementos guardados la posicion 33 de la tabla.
+No hay elementos guardados la posicion 34 de la tabla.
+No hay elementos guardados la posicion 35 de la tabla.
+No hay elementos guardados la posicion 36 de la tabla.
+No hay elementos guardados la posicion 37 de la tabla.
+No hay elementos guardados la posicion 38 de la tabla.
+No hay elementos guardados la posicion 39 de la tabla.
+No hay elementos guardados la posicion 40 de la tabla.
+No hay elementos guardados la posicion 41 de la tabla.
+No hay elementos guardados la posicion 42 de la tabla.
+No hay elementos guardados la posicion 43 de la tabla.
+No hay elementos guardados la posicion 44 de la tabla.
+No hay elementos guardados la posicion 45 de la tabla.
+No hay elementos guardados la posicion 46 de la tabla.
+No hay elementos guardados la posicion 47 de la tabla.
+No hay elementos guardados la posicion 48 de la tabla.
+No hay elementos guardados la posicion 49 de la tabla.
+No hay elementos guardados la posicion 50 de la tabla.
+No hay elementos guardados la posicion 51 de la tabla.
+No hay elementos guardados la posicion 52 de la tabla.
+No hay elementos guardados la posicion 53 de la tabla.
+No hay elementos guardados la posicion 54 de la tabla.
+No hay elementos guardados la posicion 55 de la tabla.
+No hay elementos guardados la posicion 56 de la tabla.
+No hay elementos guardados la posicion 57 de la tabla.
+No hay elementos guardados la posicion 58 de la tabla.
+No hay elementos guardados la posicion 59 de la tabla.
+No hay elementos guardados la posicion 60 de la tabla.
+No hay elementos guardados la posicion 61 de la tabla.
+No hay elementos guardados la posicion 62 de la tabla.
+No hay elementos guardados la posicion 63 de la tabla.
+No hay elementos guardados la posicion 64 de la tabla.
+No hay elementos guardados la posicion 65 de la tabla.
+No hay elementos guardados la posicion 66 de la tabla.
+No hay elementos guardados la posicion 67 de la tabla.
+No hay elementos guardados la posicion 68 de la tabla.
+No hay elementos guardados la posicion 69 de la tabla.
+No hay elementos guardados la posicion 70 de la tabla.
+No hay elementos guardados la posicion 71 de la tabla.
+No hay elementos guardados la posicion 72 de la tabla.
+No hay elementos guardados la posicion 73 de la tabla.
+No hay elementos guardados la posicion 74 de la tabla.
+No hay elementos guardados la posicion 75 de la tabla.
+No hay elementos guardados la posicion 76 de la tabla.
+No hay elementos guardados la posicion 77 de la tabla.
+No hay elementos guardados la posicion 78 de la tabla.
+No hay elementos guardados la posicion 79 de la tabla.
+No hay elementos guardados la posicion 80 de la tabla.
+No hay elementos guardados la posicion 81 de la tabla.
+No hay elementos guardados la posicion 82 de la tabla.
+No hay elementos guardados la posicion 83 de la tabla.
+No hay elementos guardados la posicion 84 de la tabla.
+No hay elementos guardados la posicion 85 de la tabla.
+No hay elementos guardados la posicion 86 de la tabla.
+No hay elementos guardados la posicion 87 de la tabla.
+No hay elementos guardados la posicion 88 de la tabla.
+No hay elementos guardados la posicion 89 de la tabla.
+No hay elementos guardados la posicion 90 de la tabla.
+No hay elementos guardados la posicion 91 de la tabla.
+No hay elementos guardados la posicion 92 de la tabla.
+No hay elementos guardados la posicion 93 de la tabla.
+No hay elementos guardados la posicion 94 de la tabla.
+No hay elementos guardados la posicion 95 de la tabla.
+No hay elementos guardados la posicion 96 de la tabla.
+No hay elementos guardados la posicion 97 de la tabla.
+No hay elementos guardados la posicion 98 de la tabla.
+No hay elementos guardados la posicion 99 de la tabla.
+47> La visita dia se ha creado de forma exitosa.
+48> El grupoABB ha sido creado de forma exitosa.
+49> Visitante creado de forma exitosa.
+50> Se ha agregado el visitante al grupo de forma exitosa.
+51> Se ha agregado el grupo a la visita dia de forma exitosa.
+52> Visita dia agregada al hash exitosamente.
+53> No hay elementos guardados la posicion 0 de la tabla.
+No hay elementos guardados la posicion 1 de la tabla.
+No hay elementos guardados la posicion 2 de la tabla.
+No hay elementos guardados la posicion 3 de la tabla.
+No hay elementos guardados la posicion 4 de la tabla.
+No hay elementos guardados la posicion 5 de la tabla.
+No hay elementos guardados la posicion 6 de la tabla.
+No hay elementos guardados la posicion 7 de la tabla.
+No hay elementos guardados la posicion 8 de la tabla.
+No hay elementos guardados la posicion 9 de la tabla.
+No hay elementos guardados la posicion 10 de la tabla.
+No hay elementos guardados la posicion 11 de la tabla.
+No hay elementos guardados la posicion 12 de la tabla.
+No hay elementos guardados la posicion 13 de la tabla.
+No hay elementos guardados la posicion 14 de la tabla.
+No hay elementos guardados la posicion 15 de la tabla.
+No hay elementos guardados la posicion 16 de la tabla.
+No hay elementos guardados la posicion 17 de la tabla.
+No hay elementos guardados la posicion 18 de la tabla.
+No hay elementos guardados la posicion 19 de la tabla.
+No hay elementos guardados la posicion 20 de la tabla.
+No hay elementos guardados la posicion 21 de la tabla.
+No hay elementos guardados la posicion 22 de la tabla.
+No hay elementos guardados la posicion 23 de la tabla.
+No hay elementos guardados la posicion 24 de la tabla.
+No hay elementos guardados la posicion 25 de la tabla.
+No hay elementos guardados la posicion 26 de la tabla.
+No hay elementos guardados la posicion 27 de la tabla.
+No hay elementos guardados la posicion 28 de la tabla.
+No hay elementos guardados la posicion 29 de la tabla.
+No hay elementos guardados la posicion 30 de la tabla.
+No hay elementos guardados la posicion 31 de la tabla.
+Elementos en la posicion 32 de la tabla:
+Visita para dia: 1/1/2024
+
+Nivel 1
+1) Grupo 7 con edad promedio 22.00
+Visitante Violeta Blanco
+Id: 7
+Edad: 22
+No hay elementos guardados la posicion 33 de la tabla.
+No hay elementos guardados la posicion 34 de la tabla.
+No hay elementos guardados la posicion 35 de la tabla.
+No hay elementos guardados la posicion 36 de la tabla.
+No hay elementos guardados la posicion 37 de la tabla.
+No hay elementos guardados la posicion 38 de la tabla.
+No hay elementos guardados la posicion 39 de la tabla.
+No hay elementos guardados la posicion 40 de la tabla.
+No hay elementos guardados la posicion 41 de la tabla.
+No hay elementos guardados la posicion 42 de la tabla.
+No hay elementos guardados la posicion 43 de la tabla.
+No hay elementos guardados la posicion 44 de la tabla.
+No hay elementos guardados la posicion 45 de la tabla.
+No hay elementos guardados la posicion 46 de la tabla.
+No hay elementos guardados la posicion 47 de la tabla.
+No hay elementos guardados la posicion 48 de la tabla.
+No hay elementos guardados la posicion 49 de la tabla.
+No hay elementos guardados la posicion 50 de la tabla.
+No hay elementos guardados la posicion 51 de la tabla.
+No hay elementos guardados la posicion 52 de la tabla.
+No hay elementos guardados la posicion 53 de la tabla.
+No hay elementos guardados la posicion 54 de la tabla.
+No hay elementos guardados la posicion 55 de la tabla.
+No hay elementos guardados la posicion 56 de la tabla.
+No hay elementos guardados la posicion 57 de la tabla.
+No hay elementos guardados la posicion 58 de la tabla.
+No hay elementos guardados la posicion 59 de la tabla.
+No hay elementos guardados la posicion 60 de la tabla.
+No hay elementos guardados la posicion 61 de la tabla.
+No hay elementos guardados la posicion 62 de la tabla.
+No hay elementos guardados la posicion 63 de la tabla.
+No hay elementos guardados la posicion 64 de la tabla.
+No hay elementos guardados la posicion 65 de la tabla.
+No hay elementos guardados la posicion 66 de la tabla.
+No hay elementos guardados la posicion 67 de la tabla.
+No hay elementos guardados la posicion 68 de la tabla.
+No hay elementos guardados la posicion 69 de la tabla.
+No hay elementos guardados la posicion 70 de la tabla.
+No hay elementos guardados la posicion 71 de la tabla.
+No hay elementos guardados la posicion 72 de la tabla.
+No hay elementos guardados la posicion 73 de la tabla.
+No hay elementos guardados la posicion 74 de la tabla.
+No hay elementos guardados la posicion 75 de la tabla.
+No hay elementos guardados la posicion 76 de la tabla.
+No hay elementos guardados la posicion 77 de la tabla.
+No hay elementos guardados la posicion 78 de la tabla.
+No hay elementos guardados la posicion 79 de la tabla.
+No hay elementos guardados la posicion 80 de la tabla.
+No hay elementos guardados la posicion 81 de la tabla.
+No hay elementos guardados la posicion 82 de la tabla.
+No hay elementos guardados la posicion 83 de la tabla.
+No hay elementos guardados la posicion 84 de la tabla.
+No hay elementos guardados la posicion 85 de la tabla.
+No hay elementos guardados la posicion 86 de la tabla.
+No hay elementos guardados la posicion 87 de la tabla.
+No hay elementos guardados la posicion 88 de la tabla.
+No hay elementos guardados la posicion 89 de la tabla.
+No hay elementos guardados la posicion 90 de la tabla.
+No hay elementos guardados la posicion 91 de la tabla.
+No hay elementos guardados la posicion 92 de la tabla.
+No hay elementos guardados la posicion 93 de la tabla.
+No hay elementos guardados la posicion 94 de la tabla.
+No hay elementos guardados la posicion 95 de la tabla.
+No hay elementos guardados la posicion 96 de la tabla.
+No hay elementos guardados la posicion 97 de la tabla.
+No hay elementos guardados la posicion 98 de la tabla.
+No hay elementos guardados la posicion 99 de la tabla.
+54> La visitaDia de fecha 1/1/2024 pertenece al hash.
+55> No se puede obtener la visitaDia de fecha 1/1/200 porque NO pertenece al hash.
+56> Hash liberado con exito.
+57> Hash creado exitosamente.
+58> La visita dia se ha creado de forma exitosa.
+59> El grupoABB ha sido creado de forma exitosa.
+60> Visitante creado de forma exitosa.
+61> Se ha agregado el visitante al grupo de forma exitosa.
+62> Se ha agregado el grupo a la visita dia de forma exitosa.
+63> Visita dia agregada al hash exitosamente.
+64> La visita dia se ha creado de forma exitosa.
+65> El grupoABB ha sido creado de forma exitosa.
+66> Visitante creado de forma exitosa.
+67> Se ha agregado el visitante al grupo de forma exitosa.
+68> Se ha agregado el grupo a la visita dia de forma exitosa.
+69> Visita dia agregada al hash exitosamente.
+70> La visita dia se ha creado de forma exitosa.
+71> El grupoABB ha sido creado de forma exitosa.
+72> Visitante creado de forma exitosa.
+73> Se ha agregado el visitante al grupo de forma exitosa.
+74> Se ha agregado el grupo a la visita dia de forma exitosa.
+75> Visita dia agregada al hash exitosamente.
+76> La visita dia se ha creado de forma exitosa.
+77> El grupoABB ha sido creado de forma exitosa.
+78> Visitante creado de forma exitosa.
+79> Se ha agregado el visitante al grupo de forma exitosa.
+80> Se ha agregado el grupo a la visita dia de forma exitosa.
+81> Visita dia agregada al hash exitosamente.
+82> No hay elementos guardados la posicion 0 de la tabla.
+No hay elementos guardados la posicion 1 de la tabla.
+Elementos en la posicion 2 de la tabla:
+Visita para dia: 28/4/2024
+
+Nivel 1
+1) Grupo 11 con edad promedio 22.00
+Visitante Gardenia Dominguez
+Id: 5
+Edad: 22
+Visita para dia: 29/3/2024
+
+Nivel 1
+1) Grupo 10 con edad promedio 35.00
+Visitante Dalia Mendez
+Id: 10
+Edad: 35
+Visita para dia: 31/1/2024
+
+Nivel 1
+1) Grupo 9 con edad promedio 34.00
+Visitante Rosa Dominguez
+Id: 9
+Edad: 34
+Visita para dia: 1/1/2024
+
+Nivel 1
+1) Grupo 8 con edad promedio 35.00
+Visitante Azalea Castro
+Id: 8
+Edad: 35
+No hay elementos guardados la posicion 3 de la tabla.
+No hay elementos guardados la posicion 4 de la tabla.
+No hay elementos guardados la posicion 5 de la tabla.
+No hay elementos guardados la posicion 6 de la tabla.
+No hay elementos guardados la posicion 7 de la tabla.
+No hay elementos guardados la posicion 8 de la tabla.
+No hay elementos guardados la posicion 9 de la tabla.
+No hay elementos guardados la posicion 10 de la tabla.
+No hay elementos guardados la posicion 11 de la tabla.
+No hay elementos guardados la posicion 12 de la tabla.
+No hay elementos guardados la posicion 13 de la tabla.
+No hay elementos guardados la posicion 14 de la tabla.
+No hay elementos guardados la posicion 15 de la tabla.
+No hay elementos guardados la posicion 16 de la tabla.
+No hay elementos guardados la posicion 17 de la tabla.
+No hay elementos guardados la posicion 18 de la tabla.
+No hay elementos guardados la posicion 19 de la tabla.
+No hay elementos guardados la posicion 20 de la tabla.
+No hay elementos guardados la posicion 21 de la tabla.
+No hay elementos guardados la posicion 22 de la tabla.
+No hay elementos guardados la posicion 23 de la tabla.
+No hay elementos guardados la posicion 24 de la tabla.
+No hay elementos guardados la posicion 25 de la tabla.
+No hay elementos guardados la posicion 26 de la tabla.
+No hay elementos guardados la posicion 27 de la tabla.
+No hay elementos guardados la posicion 28 de la tabla.
+No hay elementos guardados la posicion 29 de la tabla.
+83> Hash liberado con exito.
+84> Fin.

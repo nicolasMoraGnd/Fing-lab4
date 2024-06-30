@@ -1,0 +1,56 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Hash creado exitosamente.
+2> La visitaDia de fecha 3/4/2024 NO pertenece al hash.
+3> No se puede obtener la visitaDia de fecha 3/4/2024 porque NO pertenece al hash.
+4> La visita dia se ha creado de forma exitosa.
+5> El grupoABB ha sido creado de forma exitosa.
+6> Visitante creado de forma exitosa.
+7> Se ha agregado el visitante al grupo de forma exitosa.
+8> Se ha agregado el grupo a la visita dia de forma exitosa.
+9> Visita dia agregada al hash exitosamente.
+10> La visitaDia de fecha 3/4/2024 pertenece al hash.
+11> Visita para dia: 3/4/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 50.00
+Visitante Rosa Perez
+Id: 1
+Edad: 50
+12> La visita dia se ha creado de forma exitosa.
+13> El grupoABB ha sido creado de forma exitosa.
+14> Visitante creado de forma exitosa.
+15> Se ha agregado el visitante al grupo de forma exitosa.
+16> Se ha agregado el grupo a la visita dia de forma exitosa.
+17> Visita dia agregada al hash exitosamente.
+18> La visita dia se ha creado de forma exitosa.
+19> El grupoABB ha sido creado de forma exitosa.
+20> Visitante creado de forma exitosa.
+21> Se ha agregado el visitante al grupo de forma exitosa.
+22> Se ha agregado el grupo a la visita dia de forma exitosa.
+23> Visita dia agregada al hash exitosamente.
+24> La visita dia se ha creado de forma exitosa.
+25> El grupoABB ha sido creado de forma exitosa.
+26> Visitante creado de forma exitosa.
+27> Se ha agregado el visitante al grupo de forma exitosa.
+28> Se ha agregado el grupo a la visita dia de forma exitosa.
+29> Visita dia agregada al hash exitosamente.
+30> La visita dia se ha creado de forma exitosa.
+31> El grupoABB ha sido creado de forma exitosa.
+32> Visitante creado de forma exitosa.
+33> Se ha agregado el visitante al grupo de forma exitosa.
+34> Se ha agregado el grupo a la visita dia de forma exitosa.
+35> Visita dia agregada al hash exitosamente.
+36> La visitaDia de fecha 3/4/2024 pertenece al hash.
+37> Visita para dia: 3/4/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 50.00
+Visitante Rosa Perez
+Id: 1
+Edad: 50
+38> La visitaDia de fecha 6/6/2025 NO pertenece al hash.
+39> No se puede obtener la visitaDia de fecha 6/6/2025 porque NO pertenece al hash.
+40> La visitaDia de fecha 10/9/2000 NO pertenece al hash.
+41> No se puede obtener la visitaDia de fecha 28/2/2000 porque NO pertenece al hash.
+42> Hash liberado con exito.
+43> Fin.

@@ -1,0 +1,130 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Hash creado exitosamente.
+2> No hay elementos guardados la posicion 0 de la tabla.
+No hay elementos guardados la posicion 1 de la tabla.
+No hay elementos guardados la posicion 2 de la tabla.
+No hay elementos guardados la posicion 3 de la tabla.
+No hay elementos guardados la posicion 4 de la tabla.
+No hay elementos guardados la posicion 5 de la tabla.
+No hay elementos guardados la posicion 6 de la tabla.
+No hay elementos guardados la posicion 7 de la tabla.
+No hay elementos guardados la posicion 8 de la tabla.
+No hay elementos guardados la posicion 9 de la tabla.
+3> La visita dia se ha creado de forma exitosa.
+4> El grupoABB ha sido creado de forma exitosa.
+5> Visitante creado de forma exitosa.
+6> Se ha agregado el visitante al grupo de forma exitosa.
+7> Se ha agregado el grupo a la visita dia de forma exitosa.
+8> Visita dia agregada al hash exitosamente.
+9> No hay elementos guardados la posicion 0 de la tabla.
+No hay elementos guardados la posicion 1 de la tabla.
+No hay elementos guardados la posicion 2 de la tabla.
+No hay elementos guardados la posicion 3 de la tabla.
+No hay elementos guardados la posicion 4 de la tabla.
+No hay elementos guardados la posicion 5 de la tabla.
+No hay elementos guardados la posicion 6 de la tabla.
+Elementos en la posicion 7 de la tabla:
+Visita para dia: 3/4/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Irisia Perez
+Id: 1
+Edad: 20
+No hay elementos guardados la posicion 8 de la tabla.
+No hay elementos guardados la posicion 9 de la tabla.
+10> La visita dia se ha creado de forma exitosa.
+11> El grupoABB ha sido creado de forma exitosa.
+12> Visitante creado de forma exitosa.
+13> Se ha agregado el visitante al grupo de forma exitosa.
+14> Se ha agregado el grupo a la visita dia de forma exitosa.
+15> Visita dia agregada al hash exitosamente.
+16> Elementos en la posicion 0 de la tabla:
+Visita para dia: 30/10/2023
+
+Nivel 1
+1) Grupo 2 con edad promedio 40.00
+Visitante Violeta Lopez
+Id: 2
+Edad: 40
+No hay elementos guardados la posicion 1 de la tabla.
+No hay elementos guardados la posicion 2 de la tabla.
+No hay elementos guardados la posicion 3 de la tabla.
+No hay elementos guardados la posicion 4 de la tabla.
+No hay elementos guardados la posicion 5 de la tabla.
+No hay elementos guardados la posicion 6 de la tabla.
+Elementos en la posicion 7 de la tabla:
+Visita para dia: 3/4/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Irisia Perez
+Id: 1
+Edad: 20
+No hay elementos guardados la posicion 8 de la tabla.
+No hay elementos guardados la posicion 9 de la tabla.
+17> La visita dia se ha creado de forma exitosa.
+18> El grupoABB ha sido creado de forma exitosa.
+19> Visitante creado de forma exitosa.
+20> Se ha agregado el visitante al grupo de forma exitosa.
+21> Se ha agregado el grupo a la visita dia de forma exitosa.
+22> Visita dia agregada al hash exitosamente.
+23> La visita dia se ha creado de forma exitosa.
+24> El grupoABB ha sido creado de forma exitosa.
+25> Visitante creado de forma exitosa.
+26> Se ha agregado el visitante al grupo de forma exitosa.
+27> Se ha agregado el grupo a la visita dia de forma exitosa.
+28> Visita dia agregada al hash exitosamente.
+29> La visita dia se ha creado de forma exitosa.
+30> El grupoABB ha sido creado de forma exitosa.
+31> Visitante creado de forma exitosa.
+32> Se ha agregado el visitante al grupo de forma exitosa.
+33> Se ha agregado el grupo a la visita dia de forma exitosa.
+34> Visita dia agregada al hash exitosamente.
+35> Elementos en la posicion 0 de la tabla:
+Visita para dia: 28/2/2024
+
+Nivel 1
+1) Grupo 3 con edad promedio 29.00
+Visitante Azalea Iglesias
+Id: 3
+Edad: 29
+Visita para dia: 30/10/2023
+
+Nivel 1
+1) Grupo 2 con edad promedio 40.00
+Visitante Violeta Lopez
+Id: 2
+Edad: 40
+No hay elementos guardados la posicion 1 de la tabla.
+No hay elementos guardados la posicion 2 de la tabla.
+No hay elementos guardados la posicion 3 de la tabla.
+Elementos en la posicion 4 de la tabla:
+Visita para dia: 12/12/2023
+
+Nivel 1
+1) Grupo 5 con edad promedio 45.00
+Visitante Camilia Castro
+Id: 5
+Edad: 45
+No hay elementos guardados la posicion 5 de la tabla.
+No hay elementos guardados la posicion 6 de la tabla.
+Elementos en la posicion 7 de la tabla:
+Visita para dia: 3/4/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Irisia Perez
+Id: 1
+Edad: 20
+No hay elementos guardados la posicion 8 de la tabla.
+Elementos en la posicion 9 de la tabla:
+Visita para dia: 10/9/2023
+
+Nivel 1
+1) Grupo 4 con edad promedio 33.00
+Visitante Lilia Dominguez
+Id: 4
+Edad: 33
+36> Hash liberado con exito.
+37> Fin.

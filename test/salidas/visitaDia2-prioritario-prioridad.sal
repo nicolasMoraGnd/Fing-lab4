@@ -1,0 +1,110 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> La visita dia se ha creado de forma exitosa.
+2> El grupoABB ha sido creado de forma exitosa.
+3> Visitante creado de forma exitosa.
+4> Se ha agregado el visitante al grupo de forma exitosa.
+5> Se ha agregado el grupo a la visita dia de forma exitosa.
+6> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+7> El grupo con mayor prioridad de la visitaDia es:
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+8> El grupo con mayor prioridad de la visitaDia es:
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+9> La prioridad del grupo de id 1 es 20.00 .
+10> El grupoABB ha sido creado de forma exitosa.
+11> Visitante creado de forma exitosa.
+12> Se ha agregado el visitante al grupo de forma exitosa.
+13> Se ha agregado el grupo a la visita dia de forma exitosa.
+14> La prioridad del grupo de id 1 es 20.00 .
+15> La prioridad del grupo de id 2 es 25.00 .
+16> El grupo con mayor prioridad de la visitaDia es:
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+17> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+
+Nivel 2
+2) Grupo 2 con edad promedio 25.00
+Visitante Nombre2 Apellido2
+Id: 2
+Edad: 25
+18> El grupoABB ha sido creado de forma exitosa.
+19> Visitante creado de forma exitosa.
+20> Se ha agregado el visitante al grupo de forma exitosa.
+21> Se ha agregado el grupo a la visita dia de forma exitosa.
+22> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 3 con edad promedio 19.00
+Visitante Nombre3 Apellido3
+Id: 3
+Edad: 19
+
+Nivel 2
+2) Grupo 2 con edad promedio 25.00
+Visitante Nombre2 Apellido2
+Id: 2
+Edad: 25
+3) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+23> El grupo con mayor prioridad de la visitaDia es:
+Visitante Nombre3 Apellido3
+Id: 3
+Edad: 19
+24> El grupoABB ha sido creado de forma exitosa.
+25> Visitante creado de forma exitosa.
+26> Se ha agregado el visitante al grupo de forma exitosa.
+27> Visitante creado de forma exitosa.
+28> Se ha agregado el visitante al grupo de forma exitosa.
+29> Se ha agregado el grupo a la visita dia de forma exitosa.
+30> La prioridad del grupo de id 4 es 19.50 .
+31> La prioridad del grupo de id 3 es 19.00 .
+32> Visita para dia: 2/2/2002
+
+Nivel 1
+1) Grupo 3 con edad promedio 19.00
+Visitante Nombre3 Apellido3
+Id: 3
+Edad: 19
+
+Nivel 2
+2) Grupo 4 con edad promedio 19.50
+Visitante Nombre4 Apellido4
+Id: 4
+Edad: 20
+Visitante Nombre5 Apellido5
+Id: 5
+Edad: 19
+3) Grupo 1 con edad promedio 20.00
+Visitante Nombre1 Apellido1
+Id: 1
+Edad: 20
+
+Nivel 3
+4) Grupo 2 con edad promedio 25.00
+Visitante Nombre2 Apellido2
+Id: 2
+Edad: 25
+33> El grupo con mayor prioridad de la visitaDia es:
+Visitante Nombre3 Apellido3
+Id: 3
+Edad: 19
+34> La visita dia se ha liberado exitosamente.
+35> Fin.

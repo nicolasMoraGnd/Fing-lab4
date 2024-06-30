@@ -1,0 +1,80 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Galeria creada con exito.
+2> No existen registros de visitaDia para la fecha 1/5/2024
+3> El grupoABB ha sido creado de forma exitosa.
+4> Visitante creado de forma exitosa.
+5> Se ha agregado el visitante al grupo de forma exitosa.
+6> Visitante creado de forma exitosa.
+7> Se ha agregado el visitante al grupo de forma exitosa.
+8> Se ejecuto llegaGrupoTGaleria con exito.
+9> El grupoABB ha sido creado de forma exitosa.
+10> Visitante creado de forma exitosa.
+11> Se ha agregado el visitante al grupo de forma exitosa.
+12> Se ejecuto llegaGrupoTGaleria con exito.
+13> Visita para dia: 2/5/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 22.50
+Visitante Azalea Blanco
+Id: 4
+Edad: 25
+Visitante Gardenia Perez
+Id: 10
+Edad: 20
+
+Nivel 2
+2) Grupo 2 con edad promedio 51.00
+Visitante Lilia Lopez
+Id: 3
+Edad: 51
+14> Se avanzo la fecha de la galeria a 4/5/2024
+15> No existen registros de visitaDia para la fecha 1/5/2024
+16> Visita para dia: 2/5/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 22.50
+Visitante Azalea Blanco
+Id: 4
+Edad: 25
+Visitante Gardenia Perez
+Id: 10
+Edad: 20
+
+Nivel 2
+2) Grupo 2 con edad promedio 51.00
+Visitante Lilia Lopez
+Id: 3
+Edad: 51
+17> Visita para dia: 4/5/2024
+18> El grupoABB ha sido creado de forma exitosa.
+19> Visitante creado de forma exitosa.
+20> Se ha agregado el visitante al grupo de forma exitosa.
+21> Se ejecuto llegaGrupoTGaleria con exito.
+22> Se avanzo la fecha de la galeria a 6/5/2024
+23> Visita para dia: 6/5/2024
+24> Visita para dia: 4/5/2024
+
+Nivel 1
+1) Grupo 3 con edad promedio 40.00
+Visitante Irisia Dominguez
+Id: 6
+Edad: 40
+25> Visita para dia: 2/5/2024
+
+Nivel 1
+1) Grupo 1 con edad promedio 22.50
+Visitante Azalea Blanco
+Id: 4
+Edad: 25
+Visitante Gardenia Perez
+Id: 10
+Edad: 20
+
+Nivel 2
+2) Grupo 2 con edad promedio 51.00
+Visitante Lilia Lopez
+Id: 3
+Edad: 51
+26> No existen registros de visitaDia para la fecha 1/5/2024
+27> Galeria liberada con exito.
+28> Fin.
