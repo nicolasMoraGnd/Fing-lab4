@@ -1,0 +1,37 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Galeria creada con exito.
+2> No existen registros de visitaDia para la fecha 1/5/2023
+3> El grupoABB ha sido creado de forma exitosa.
+4> Visitante creado de forma exitosa.
+5> Se ha agregado el visitante al grupo de forma exitosa.
+6> Visitante creado de forma exitosa.
+7> Se ha agregado el visitante al grupo de forma exitosa.
+8> Se ejecuto llegaGrupoTGaleria con exito.
+9> Pieza creada en forma exitosa.
+10> La pieza fue agregada a la galeria con exito.
+11> Pieza creada en forma exitosa.
+12> La pieza fue agregada a la galeria con exito.
+13> Exposicion creada con exito.
+14> La exposicion fue agregada a la galeria con exito.
+15> Exposicion creada con exito.
+16> La exposicion fue agregada a la galeria con exito.
+17> La pieza de id 1 fue agregada a la exposicion de id 10.
+18> Las piezas en exposicion en la galeria son:
+1 
+19> La pieza de id 2 fue agregada a la exposicion de id 10.
+20> Las piezas en exposicion en la galeria son:
+1 2 
+21> Se avanzo la fecha de la galeria a 10/5/2023
+22> Las piezas en exposicion en la galeria son:
+1 2 
+23> Pieza creada en forma exitosa.
+24> La pieza fue agregada a la galeria con exito.
+25> Las piezas en reserva en la galeria son:
+3 
+26> Visitante creado de forma exitosa.
+27> El indice de felicidad del visitante es 1.00
+28> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+29> El indice de felicidad del visitante es 0.50
+30> Visitante liberado con exito.
+31> Galeria liberada con exito.
+32> Fin.

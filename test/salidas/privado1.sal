@@ -1,0 +1,27 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Visitante creado de forma exitosa.
+2> Piezas favoritas del visitante:
+
+3> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
+4> Piezas favoritas del visitante:
+10 12 15 
+5> Visitante liberado con exito.
+6> Exposicion creada con exito.
+7> Las piezas de la exposicion son las siguientes:
+
+8> Piezas agregadas a la exposicion de forma exitosa.
+9> Las piezas de la exposicion son las siguientes:
+0 1 2 3 4 5 6 7 
+10> Las exposiciones NO son compatibles.
+11> Las exposiciones son compatibles.
+12> Exposicion liberada con exito.
+13> Lista de exposiciones creada con exito.
+14> Hay 0 exposiciones en la lista de exposiciones.
+15> Exposicion creada con exito.
+16> Piezas agregadas a la exposicion de forma exitosa.
+17> Se ha agregado la exposicion a la lista de forma exitosa.
+18> Exposicion en posicion 1 de la lista:
+Exposicion #3 del 2/3/2021 al 1/5/2021
+Piezas: 0 
+19> Lista exposiciones liberada con exito.
+20> Fin.

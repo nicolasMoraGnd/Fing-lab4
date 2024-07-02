@@ -1,0 +1,33 @@
+crearVisitaDia 01/01/2020
+fechaVisitaDia
+maxGruposVisitaDia
+cantidadGruposVisitaDia
+crearGrupoABB 
+crearVisitante 1 Juan Gomez 21
+agregarAGrupoABB
+crearVisitante 2 Jorge Jimenez 20
+agregarAGrupoABB
+encolarGrupoVisitaDia 
+cantidadGruposVisitaDia
+imprimirVisitaDia
+masPrioritarioVisitaDia 
+estaEnVisitaDia 1
+estaEnVisitaDia 2
+prioridadVisitaDia 1
+crearGrupoABB 
+crearVisitante 3 Peter Parker 22
+agregarAGrupoABB
+crearVisitante 4 Heber Everton 27
+agregarAGrupoABB
+encolarGrupoVisitaDia
+estaEnVisitaDia 1
+estaEnVisitaDia 2
+cantidadGruposVisitaDia
+prioridadVisitaDia 1
+prioridadVisitaDia 2
+imprimirVisitaDia
+masPrioritarioVisitaDia 
+invertirPrioridadVisitaDia
+masPrioritarioVisitaDia 
+liberarVisitaDia
+Fin

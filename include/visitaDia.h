@@ -37,8 +37,10 @@ int cantidadGruposTVisitaDia(TVisitaDia visitaDia);
 // con un salto de línea y antecediéndolo con una línea que diga:
 //      Nivel <i>
 // Finalmente, para cada grupo en el nivel, se imprime:
-//      <j>) Grupo <j> con edad promedio <edad promedio> 
+//      <j>) Grupo <idGrupo> con edad promedio <edad promedio> 
 //      <imprimirTGrupoABB>
+// donde <j> es un iterador en la función, inicia en 1 y aumenta en 1 por cada grupo
+// impreso.
 // Se sugiere ver los test correspondientes si tiene
 // dudas sobre el formato.
 // Dada una cantidad máxima de visitantes por grupo fija la funcion es

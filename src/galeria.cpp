@@ -158,12 +158,27 @@ TConjuntoPiezas piezasEnExposicionTGaleria(TGaleria galeria){
 
         return piezasRetorno;
     }else{
-        return NULL;
+        return crearTConjuntoPiezas(MAX_PIEZAS);
     }
 }
 
 float indiceFelicidadVisitanteTGaleria(TGaleria galeria, TVisitante visitante){
-    return 0.0;
+    TConjuntoPiezas cpf = obtenerPiezasFavoritasTVisitante(visitante);
+
+    if (esVacioTConjuntoPiezas(cpf))
+    {
+        return 1;
+    }
+    
+    TConjuntoPiezas conjuntoActivas = piezasEnExposicionTGaleria(galeria);
+    TConjuntoPiezas cpfe = interseccionTConjuntoPiezas(conjuntoActivas, cpf);
+
+    float indice = float(cardinalTConjuntoPiezas(cpfe)) / float(cardinalTConjuntoPiezas(cpf));
+    
+    liberarTConjuntoPiezas(cpfe);
+    liberarTConjuntoPiezas(conjuntoActivas);
+
+    return indice;
 }
 
 void llegaGrupoTGaleria(TGaleria galeria, TGrupoABB grupoABB){
@@ -171,7 +186,13 @@ void llegaGrupoTGaleria(TGaleria galeria, TGrupoABB grupoABB){
 }
 
 TConjuntoPiezas piezasEnReservaTGaleria(TGaleria galeria){    
-    return NULL;
+    TConjuntoPiezas conjuntoActivas = piezasEnExposicionTGaleria(galeria);
+    TConjuntoPiezas piezasEnReserva = diferenciaTConjuntoPiezas(galeria->stockPiezas, conjuntoActivas);
+
+    liberarTConjuntoPiezas(conjuntoActivas);
+    
+    
+    return piezasEnReserva;
 }
 
 TVisitaDia obtenerVisitaDiaTGaleria(TGaleria galeria, TFecha fecha){

@@ -107,7 +107,11 @@ CASOS = regresion1-visitante \
 		galeria1-llegaGrupo-obtenerVisita \
 		galeria2-piezasEnExposicion \
 		galeria3-piezasEnReserva \
-		galeria4-indiceFelicidad
+		galeria4-indiceFelicidad \
+		privado1 \
+		privado2 \
+		privado3 \
+		privado4
  
 
 # cadena de archivos, con directorio y extensión

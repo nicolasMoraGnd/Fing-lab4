@@ -29,19 +29,19 @@ Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
 28> La pieza de id 7 fue agregada a la exposicion de id 11.
 29> La pieza de id 8 fue agregada a la exposicion de id 11.
 30> Visitante creado de forma exitosa.
-31> El indice de felicidad del visitante es 0.00
+31> El indice de felicidad del visitante es 1.00
 32> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
 33> El indice de felicidad del visitante es 0.00
 34> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
-35> El indice de felicidad del visitante es 0.00
+35> El indice de felicidad del visitante es 0.25
 36> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
-37> El indice de felicidad del visitante es 0.00
+37> El indice de felicidad del visitante es 0.50
 38> Se avanzo la fecha de la galeria a 20/6/2024
-39> El indice de felicidad del visitante es 0.00
+39> El indice de felicidad del visitante es 0.50
 40> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
-41> El indice de felicidad del visitante es 0.00
+41> El indice de felicidad del visitante es 0.30
 42> Se ejecuto agregarPiezasFavoritasTVisitante exitosamente.
-43> El indice de felicidad del visitante es 0.00
+43> El indice de felicidad del visitante es 0.36
 44> Se avanzo la fecha de la galeria a 2/7/2024
 45> El indice de felicidad del visitante es 0.00
 46> Visitante liberado con exito.

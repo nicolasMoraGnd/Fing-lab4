@@ -92,10 +92,12 @@ TConjuntoPiezas unionTConjuntoPiezas(TConjuntoPiezas c1, TConjuntoPiezas c2){
 }
 
 TConjuntoPiezas interseccionTConjuntoPiezas(TConjuntoPiezas c1, TConjuntoPiezas c2){
+    TConjuntoPiezas cInter = crearTConjuntoPiezas(MAX_PIEZAS);
+    
     if (c1 == NULL || c2 == NULL){
-        return NULL;
+        return cInter;
     }
-    TConjuntoPiezas cInter = crearTConjuntoPiezas(c1->cantMax);
+    
     for(int i = 0; i < c1->cantMax; i++ ){
         if(c1->elementos[i] && c2->elementos[i]){
             cInter->elementos[i] = true;

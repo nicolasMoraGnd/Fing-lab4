@@ -1,0 +1,88 @@
+Bienvenido al programa principal de ArteProg. Por favor ingrese su comando:
+1> Hash creado exitosamente.
+2> No hay elementos guardados la posicion 0 de la tabla.
+3> La visita dia se ha creado de forma exitosa.
+4> El grupoABB ha sido creado de forma exitosa.
+5> Visitante creado de forma exitosa.
+6> Se ha agregado el visitante al grupo de forma exitosa.
+7> Se ha agregado el grupo a la visita dia de forma exitosa.
+8> Visita dia agregada al hash exitosamente.
+9> La visita dia se ha creado de forma exitosa.
+10> El grupoABB ha sido creado de forma exitosa.
+11> Visitante creado de forma exitosa.
+12> Se ha agregado el visitante al grupo de forma exitosa.
+13> Se ha agregado el grupo a la visita dia de forma exitosa.
+14> Visita dia agregada al hash exitosamente.
+15> La visita dia se ha creado de forma exitosa.
+16> El grupoABB ha sido creado de forma exitosa.
+17> Visitante creado de forma exitosa.
+18> Se ha agregado el visitante al grupo de forma exitosa.
+19> Se ha agregado el grupo a la visita dia de forma exitosa.
+20> Visita dia agregada al hash exitosamente.
+21> La visita dia se ha creado de forma exitosa.
+22> El grupoABB ha sido creado de forma exitosa.
+23> Visitante creado de forma exitosa.
+24> Se ha agregado el visitante al grupo de forma exitosa.
+25> Se ha agregado el grupo a la visita dia de forma exitosa.
+26> Visita dia agregada al hash exitosamente.
+27> La visita dia se ha creado de forma exitosa.
+28> El grupoABB ha sido creado de forma exitosa.
+29> Visitante creado de forma exitosa.
+30> Se ha agregado el visitante al grupo de forma exitosa.
+31> Se ha agregado el grupo a la visita dia de forma exitosa.
+32> Visita dia agregada al hash exitosamente.
+33> La visita dia se ha creado de forma exitosa.
+34> El grupoABB ha sido creado de forma exitosa.
+35> Visitante creado de forma exitosa.
+36> Se ha agregado el visitante al grupo de forma exitosa.
+37> Se ha agregado el grupo a la visita dia de forma exitosa.
+38> Visita dia agregada al hash exitosamente.
+39> La visitaDia de fecha 6/6/2024 NO pertenece al hash.
+40> No se puede obtener la visitaDia de fecha 6/6/2024 porque NO pertenece al hash.
+41> La visitaDia de fecha 10/9/1999 NO pertenece al hash.
+42> No se puede obtener la visitaDia de fecha 28/2/1999 porque NO pertenece al hash.
+43> Elementos en la posicion 0 de la tabla:
+Visita para dia: 5/5/2022
+
+Nivel 1
+1) Grupo 6 con edad promedio 41.00
+Visitante Joaquina Lopez
+Id: 6
+Edad: 41
+Visita para dia: 21/12/2022
+
+Nivel 1
+1) Grupo 5 con edad promedio 45.00
+Visitante Carmela Castro
+Id: 5
+Edad: 45
+Visita para dia: 15/9/2022
+
+Nivel 1
+1) Grupo 4 con edad promedio 33.00
+Visitante Rosina Iglesias
+Id: 4
+Edad: 33
+Visita para dia: 12/2/2023
+
+Nivel 1
+1) Grupo 3 con edad promedio 29.00
+Visitante Daniela Vidal
+Id: 3
+Edad: 29
+Visita para dia: 30/1/2022
+
+Nivel 1
+1) Grupo 2 con edad promedio 40.00
+Visitante Irene Blanco
+Id: 2
+Edad: 40
+Visita para dia: 3/4/2023
+
+Nivel 1
+1) Grupo 1 con edad promedio 20.00
+Visitante Juan Castro
+Id: 1
+Edad: 20
+44> Hash liberado con exito.
+45> Fin.

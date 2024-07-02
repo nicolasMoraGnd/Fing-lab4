@@ -1,0 +1,32 @@
+crearGaleria 02/05/2023
+obtenerVisitaDiaGaleria 01/05/2023
+crearGrupoABB
+crearVisitante 4 Andrea Blanco 25
+agregarAGrupoABB
+crearVisitante 10 Georgina Perez 20
+agregarAGrupoABB
+llegaGrupoGaleria 
+crearPieza 1 LaMenina Pumino Rembrant
+agregarPiezaGaleria
+crearPieza 2 ElDesayuno Lobon VanGohns
+agregarPiezaGaleria
+crearExposicion 01/05/2023 20/05/2023 100 10
+agregarExposicionGaleria
+crearExposicion 08/05/2023 30/05/2023 100 11
+agregarExposicionGaleria
+agregarPiezaAExposicionGaleria 1 10
+piezasEnExposicionGaleria
+agregarPiezaAExposicionGaleria 2 10
+piezasEnExposicionGaleria
+avanzarAFechaGaleria 10/05/2023
+piezasEnExposicionGaleria
+crearPieza 3 LaPersistencia Osito Warhill
+agregarPiezaGaleria
+piezasEnReservaGaleria
+crearVisitante 1 Gardenia Alvarez 22
+indiceFelicidadVisitanteGaleria
+agregarPiezasFavoritasVisitante 4 1 2 3 4
+indiceFelicidadVisitanteGaleria
+liberarVisitante
+liberarGaleria
+Fin

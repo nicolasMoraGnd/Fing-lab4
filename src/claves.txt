@@ -1,0 +1,7 @@
+43d2a3e0b82cdd8aaba15cc84250e7b9d6232294  src/visitante.cpp
+428e5a195d4ca0ded6202ddbb5c1b1a535e5de84  src/exposicion.cpp
+d0a193d55eb1872c0fc5a223d37b5f79c5f61134  src/conjuntoPiezas.cpp
+34ed9fa5bef53862c30d0ea1000f39c1bdb00bd0  src/listaExposiciones.cpp
+46dbd7902dc7ce2b9c5583c32aa01cc66a83683f  src/visitaDia.cpp
+61bfec77c4a785fb8b89d58d8207603a50cef46f  src/hashVisitaDia.cpp
+48abc80e000820727c5295147e1f72252b178fbd  src/galeria.cpp
